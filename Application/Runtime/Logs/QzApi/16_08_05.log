@@ -1,0 +1,24 @@
+[ 2016-08-05T09:53:10+08:00 ] 14.156.125.179 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-08-05T09:53:21+08:00 ] 14.156.125.179 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1470362001','5f8df7c9e0c65204fafc0f1d2d97bb82') [ RunTime:0.0241s ]
+

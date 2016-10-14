@@ -1,0 +1,461 @@
+[ 2016-06-05T14:03:13+08:00 ] 116.30.240.10 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: user_birthday /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2016-06-05T14:03:52+08:00 ] 116.30.240.10 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: user_birthday /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2016-06-05T14:06:11+08:00 ] 116.30.240.10 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-05T14:06:57+08:00 ] 116.30.240.10 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '2418' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_password`,`user_phone`,`user_birthday`,`user_address`,`user_sex`,`create_time`,`update_time`,`user_num`,`user_head_img`) VALUES ('测试','536f868c09cfbc81399401da424e42e6','18702783614','954892800','XXXXXXX','1','1465106817','1465106817','100006',NULL) [ RunTime:0.0002s ]
+SQL: UPDATE `qz_verify` SET `status`='2' WHERE `phone` = '18702783614' AND `verify` = '2418' AND `status` = 1 [ RunTime:0.0002s ]
+
+[ 2016-06-05T14:08:07+08:00 ] 116.30.240.10 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-06-05T14:08:43+08:00 ] 116.30.240.10 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-06-05T14:09:13+08:00 ] 116.30.240.10 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '2418' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-05T14:10:54+08:00 ] 116.30.240.10 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '2418' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-05T14:11:45+08:00 ] 116.30.240.10 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '2418' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-05T14:12:25+08:00 ] 116.30.240.10 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '2418' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_password`,`user_phone`,`user_birthday`,`user_address`,`user_sex`,`create_time`,`update_time`,`user_num`,`user_head_img`) VALUES ('测试','536f868c09cfbc81399401da424e42e6','18702783614','954892800','XXXXXXX','1','1465107145','1465107145','100006','./Temp/2016-06-01/574eebfaa407f.jpg') [ RunTime:0.0002s ]
+SQL: UPDATE `qz_verify` SET `status`='2' WHERE `phone` = '18702783614' AND `verify` = '2418' AND `status` = 1 [ RunTime:0.0002s ]
+
+[ 2016-06-05T15:20:10+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-06-05T15:20:24+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-06-05T15:21:13+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1146:Table 'qiuxx.qz_activity' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qz_activity`
+ERR: 1146:Table 'qiuxx.qz_activity' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qz_activity`
+
+[ 2016-06-05T15:22:02+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: aty_content /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2016-06-05T15:23:50+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-06-05T15:24:41+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0003s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expland_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-06-05T15:51:10+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0003s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expland_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_activity` (`aty_content`,`aty_x`,`aty_y`,`aty_look`,`aty_create_time`,`aty_update_time`) VALUES ('测试添加','0','0','0','1465113070','1465113070') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_name /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_aty_expand` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`) VALUES ('./Temp/2016-06-01/574eebfaa407f.jpg') [ RunTime:0.0001s ]
+
+[ 2016-06-05T15:52:47+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expland_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+
+[ 2016-06-05T15:53:55+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0003s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expand_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+
+[ 2016-06-05T15:54:21+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expand_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'user_id' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qz_activity` (`aty_content`,`aty_x`,`aty_y`,`aty_look`,`aty_create_time`,`aty_update_time`,`user_id`) VALUES ('测试添加','0','0','0','1465113261','1465113261','3')
+ERR: 1054:Unknown column 'user_id' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qz_activity` (`aty_content`,`aty_x`,`aty_y`,`aty_look`,`aty_create_time`,`aty_update_time`,`user_id`) VALUES ('测试添加','0','0','0','1465113261','1465113261','3')
+
+[ 2016-06-05T15:54:55+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0003s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expand_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_activity` (`aty_content`,`aty_x`,`aty_y`,`aty_look`,`aty_create_time`,`aty_update_time`,`aty_uid`) VALUES ('测试添加','0','0','0','1465113295','1465113295','3') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_name /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_aty_expand` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./Temp/2016-06-01/574eebfaa407f.jpg','./Temp/2016-06-01/thumb574eebfaa407f.jpg') [ RunTime:0.0002s ]
+
+[ 2016-06-05T15:56:39+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expand_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_activity` (`aty_content`,`aty_x`,`aty_y`,`aty_look`,`aty_create_time`,`aty_update_time`,`aty_uid`) VALUES ('测试添加','0','0','0','1465113399','1465113399','3') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_name /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_aty_expand` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./Temp/2016-06-01/574eebfaa407f.jpg','./Temp/2016-06-01/thumb574eebfaa407f.jpg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg') [ RunTime:0.0001s ]
+
+[ 2016-06-05T15:56:59+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0003s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expand_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_activity` (`aty_content`,`aty_x`,`aty_y`,`aty_look`,`aty_create_time`,`aty_update_time`,`aty_uid`) VALUES ('测试添加','0','0','0','1465113419','1465113419','3') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_name /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_aty_expand` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./Temp/2016-06-01/574eebfaa407f.jpg','./Temp/2016-06-01/thumb574eebfaa407f.jpg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg') [ RunTime:0.0001s ]
+
+[ 2016-06-05T15:57:38+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expand_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+
+[ 2016-06-05T15:58:18+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expand_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+
+[ 2016-06-05T15:58:50+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expand_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0001s ]
+
+[ 2016-06-05T16:00:09+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expand_aty_thumb_img FROM `qz_temp_image`  [ RunTime:0.0001s ]
+
+[ 2016-06-05T16:00:15+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expand_aty_thumb_img FROM `qz_temp_image` WHERE `id` IN ('4','5','6')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_activity` (`aty_content`,`aty_x`,`aty_y`,`aty_look`,`aty_create_time`,`aty_update_time`,`aty_uid`) VALUES ('测试添加','0','0','0','1465113615','1465113615','3') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_name /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_aty_expand` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./Temp/2016-06-01/574eebfaa407f.jpg','./Temp/2016-06-01/thumb574eebfaa407f.jpg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg') [ RunTime:0.0001s ]
+
+[ 2016-06-05T16:01:47+08:00 ] 116.30.240.10 /qzApi.php/Activity/activityAdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT img as expand_aty_img,thumb_img as expand_aty_thumb_img FROM `qz_temp_image` WHERE `id` IN ('4','5','6')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_activity` (`aty_content`,`aty_x`,`aty_y`,`aty_look`,`aty_create_time`,`aty_update_time`,`aty_uid`) VALUES ('测试添加','0','0','0','1465113707','1465113707','3') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_name /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_aty_expand` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`,`expand_aty_id`) VALUES ('./Temp/2016-06-01/574eebfaa407f.jpg','./Temp/2016-06-01/thumb574eebfaa407f.jpg','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`,`expand_aty_id`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_aty_expand` (`expand_aty_img`,`expand_aty_thumb_img`,`expand_aty_id`) VALUES ('./startImg/2016-05-28/57496406051de.jpg','./startImg/2016-05-28/thumb57496406051de.jpg','6') [ RunTime:0.0001s ]
+

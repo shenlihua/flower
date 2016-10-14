@@ -1,0 +1,39 @@
+[ 2016-08-03T15:39:43+08:00 ] 27.217.216.42 /api.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+

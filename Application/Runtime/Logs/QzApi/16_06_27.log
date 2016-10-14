@@ -1,0 +1,140 @@
+[ 2016-06-27T20:34:14+08:00 ] 101.226.33.237 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-06-27T20:34:15+08:00 ] 112.90.82.196 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-06-27T20:34:15+08:00 ] 14.17.29.92 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-06-27T20:34:17+08:00 ] 180.153.214.200 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-06-27T20:34:22+08:00 ] 180.153.163.208 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-06-27T20:34:25+08:00 ] 101.226.51.230 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-06-27T20:35:54+08:00 ] 103.243.25.218 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15918642914' AND `create_time` > 1467029154 LIMIT 1   [ RunTime:0.0053s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15918642914','4973','1','1467030954') [ RunTime:0.0179s ]
+
+[ 2016-06-27T20:37:04+08:00 ] 103.243.25.218 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13829374711' AND `create_time` > 1467029224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('13829374711','8742','1','1467031024') [ RunTime:0.0003s ]
+
+[ 2016-06-27T20:38:29+08:00 ] 103.243.25.218 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13829374711' AND `create_time` > 1467029309 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-27T20:39:30+08:00 ] 103.243.25.218 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13829374711' AND `create_time` > 1467029370 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-27T20:39:33+08:00 ] 103.243.25.218 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13829374711' AND `create_time` > 1467029373 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-27T20:39:34+08:00 ] 103.243.25.218 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13829374711' AND `create_time` > 1467029374 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-27T20:39:34+08:00 ] 103.243.25.218 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13829374711' AND `create_time` > 1467029374 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-27T20:39:36+08:00 ] 103.243.25.218 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13829374711' AND `create_time` > 1467029376 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-27T20:39:36+08:00 ] 103.243.25.218 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011451s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13829374711' AND `create_time` > 1467029376 LIMIT 1   [ RunTime:0.0001s ]
+

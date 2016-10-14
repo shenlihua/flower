@@ -1,0 +1,55 @@
+.pop {
+    display: none;
+}
+
+.popBg .chooseArea {
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 100px;
+    z-index: 9;
+    width: 800px;
+    margin-left: -400px;
+    padding: 20px;
+    height: 350px;
+    overflow: auto
+}
+
+.popBg .chooseArea h1 {
+    font-size: 18px;
+    line-height: 2em;
+    text-align: center;
+}
+
+.chooseArea .areaSection {
+    margin-bottom: 10px;
+    border-bottom: dotted 1px #ccc;
+}
+
+.chooseArea .areaSection p {
+    line-height: 1.5em;
+    margin-top: 0;
+}
+
+.chooseArea .areaSection h2 {
+    color: #000;
+}
+
+.chooseArea .areaSection label {
+    min-width: 5em;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.qx label:first-child {
+    color: #000;
+}
+
+.chooseArea .qxarea {
+    width: 100%;
+    display: block;
+}
+
+.chooseArea .twoButton {
+    margin: 15px 0;
+}

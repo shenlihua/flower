@@ -1,0 +1,257 @@
+[ 2016-07-23T13:48:15+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-07-23T13:48:17+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-07-23T13:48:18+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-07-23T13:48:18+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-07-23T13:48:18+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-07-23T13:48:35+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-23T13:48:37+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-23T13:48:37+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-23T13:48:37+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-23T13:48:37+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-23T13:48:52+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644633' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-23T13:48:52+08:00 ] 118.186.143.16 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13581644633' AND `create_time` > 1469252922 LIMIT 1   [ RunTime:0.0205s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('13581644633','5498','1','1469252932') [ RunTime:0.0063s ]
+
+[ 2016-07-23T13:49:12+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-07-23T13:49:19+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644638' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-23T13:49:20+08:00 ] 118.186.143.16 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13581644638' AND `create_time` > 1469252949 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('13581644638','68105','1','1469252960') [ RunTime:0.0003s ]
+
+[ 2016-07-23T13:49:21+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644638' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-23T13:49:50+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644638' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-23T13:49:53+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644638' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-23T13:50:10+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644638' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-23T19:09:58+08:00 ] 117.136.0.132 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-07-23T22:11:14+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-07-23T23:17:44+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581664632' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-23T23:17:44+08:00 ] 118.186.143.16 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13581664632' AND `create_time` > 1469287054 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('13581664632','7834','1','1469287064') [ RunTime:0.0003s ]
+
+[ 2016-07-23T23:24:46+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581664632' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-23T23:28:19+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581664632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-23T23:39:11+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581664632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-23T23:51:59+08:00 ] 118.186.143.16 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581664632' LIMIT 1   [ RunTime:0.0001s ]
+

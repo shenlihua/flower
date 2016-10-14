@@ -1,0 +1,959 @@
+[ 2016-07-25T09:48:31+08:00 ] 60.215.180.252 /api.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-07-25T09:48:36+08:00 ] 60.215.180.252 /api.php/Interface/interfaceInfo/id/13/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 13 ORDER BY param_rank desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','13') ORDER BY return_rank desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 108 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-07-25T09:48:37+08:00 ] 60.215.180.252 /api.php/Interface/interfaceInfo/id/15/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 15 ORDER BY param_rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','15') ORDER BY return_rank desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 108 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-07-25T09:48:45+08:00 ] 60.215.180.252 /api.php/Interface/interfaceInfo/id/13/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 13 ORDER BY param_rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','13') ORDER BY return_rank desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 108 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-07-25T09:48:48+08:00 ] 60.215.180.252 /api.php/Interface/interfaceInfo/id/15/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 15 ORDER BY param_rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','15') ORDER BY return_rank desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 108 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-07-25T09:54:10+08:00 ] 113.78.163.44 /api.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-07-25T09:54:14+08:00 ] 113.78.163.44 /api.php/Interface/interfaceInfo/id/13/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 13 ORDER BY param_rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','13') ORDER BY return_rank desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 108 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-07-25T09:54:53+08:00 ] 113.78.163.44 /api.php/Interface/interfaceInfo/id/15/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 15 ORDER BY param_rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','15') ORDER BY return_rank desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 108 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-07-25T09:55:32+08:00 ] 113.78.163.44 /api.php/Interface/interfaceInfo/id/13/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 13 ORDER BY param_rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','13') ORDER BY return_rank desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 108 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-07-25T09:57:46+08:00 ] 113.78.163.44 /api.php/Interface/interfaceInfo/id/13/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 13 ORDER BY param_rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','13') ORDER BY return_rank desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 108 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-07-25T10:02:06+08:00 ] 113.78.163.44 /api.php/Interface/interfaceInfo/id/13/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 13 ORDER BY param_rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','13') ORDER BY return_rank desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 108 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-07-25T16:12:21+08:00 ] 61.141.245.74 /api.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-07-25T16:12:21+08:00 ] 180.153.206.26 /api.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-07-25T16:12:22+08:00 ] 61.141.245.74 /api.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-07-25T16:12:25+08:00 ] 101.226.33.204 /api.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-07-25T16:12:25+08:00 ] 180.153.206.24 /api.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0107s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-07-25T16:12:29+08:00 ] 61.141.245.74 /api.php/Login/loginAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 3 for encryptDecrypt(), called in /www/web/qiuxx/public_html/Application/Api/Controller/LoginController.class.php on line 43 and defined /www/web/qiuxx/public_html/Application/Api/Common/function.php 第 56 行.
+NOTIC: [8] Undefined variable: decrypt /www/web/qiuxx/public_html/Application/Api/Common/function.php 第 57 行.
+SQL: SHOW COLUMNS FROM `api_account` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `api_account` WHERE `account` = 'admin' AND `password` = 'lwY39+2V4Eyqg31yUPFiLZpDBTr3wgTUKEgzy3N0ldI=' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-25T16:12:29+08:00 ] 61.141.245.74 /api.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 57 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2016-07-25T16:12:30+08:00 ] 101.226.51.229 /api.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 76 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 86 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/30aa4fd9eca93d9bd1eea70634211bd0.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-07-25T16:12:33+08:00 ] 61.141.245.74 /api.php/Interface/addInterface/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `interface_code` FROM `api_interface` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/efedd96428e903bf709e684d07e9ee9a.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-07-25T16:14:46+08:00 ] 61.141.245.74 /api.php/Interface/addInterfaceAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `api_interface` (`cid`,`interface_code`,`interface_name`,`interface_detail`,`return_value`,`interface_url`,`ext`,`create_time`) VALUES ('3','00016','更新用户数据','修改需带token
+2016-07-25 16:12 新增 ','{
+  &quot;code&quot;: 1,
+  &quot;msg&quot;: &quot;修改成功&quot;
+}','http://qiuxx.com/qzApi.php/UserInfo/updateUserInfo','','2016-07-25 16:14:46') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `api_parameter` (`iid`,`param_name`,`param_detail`,`param_needs`,`param_type`,`param_rank`,`create_time`) VALUES ('16','user_name','用户名','2','1','10','2016-07-25 16:14:46') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `api_parameter` (`iid`,`param_name`,`param_detail`,`param_needs`,`param_type`,`param_rank`,`create_time`) VALUES ('16','user_birthday','生日  如：  1999-9-11','2','1','9','2016-07-25 16:14:46') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `api_parameter` (`iid`,`param_name`,`param_detail`,`param_needs`,`param_type`,`param_rank`,`create_time`) VALUES ('16','user_email','邮箱，调用接口前需判断','2','1','8','2016-07-25 16:14:46') [ RunTime:0.0001s ]
+
+[ 2016-07-25T16:14:46+08:00 ] 61.141.245.74 /api.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 57 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 80 行.
+NOTIC: [8] Undefined index: cid /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/51b31191c7d9f8df7ef9291eadae4e42.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-07-25T16:14:48+08:00 ] 61.141.245.74 /api.php/Interface/interfaceInfo/id/16/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 16 ORDER BY param_rank desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','16') ORDER BY return_rank desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-07-25T16:14:49+08:00 ] 180.153.163.208 /api.php/Interface/interfaceInfo/id/16/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 16 ORDER BY param_rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','16') ORDER BY return_rank desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 108 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-07-25T16:14:50+08:00 ] 101.226.66.187 /api.php/Interface/interfaceInfo/id/16/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_parameter` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_parameter` WHERE `iid` = 16 ORDER BY param_rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_return` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `api_return` WHERE `iid` IN ('0','16') ORDER BY return_rank desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 36 行.
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 57 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 62 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 76 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 108 行.
+NOTIC: [8] Undefined index: isLogin /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/976ac8c36f4a7bda0f4bb816ad2dfdac.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-07-25T16:15:24+08:00 ] 61.141.245.74 /api.php/Interface/addInterface/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 2 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 3 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `api_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `interface_code` FROM `api_interface` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: like /www/web/qiuxx/public_html/Application/Runtime/Cache/Api/efedd96428e903bf709e684d07e9ee9a.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+

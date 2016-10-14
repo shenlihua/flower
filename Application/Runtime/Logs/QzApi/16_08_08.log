@@ -1,0 +1,27 @@
+[ 2016-08-08T10:11:45+08:00 ] 14.156.126.10 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1470622305','cafe8c01c3a15f7556adabceb8191a97') [ RunTime:0.0300s ]
+
+[ 2016-08-08T10:11:45+08:00 ] 14.156.126.10 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.vip_level AS vip_level,User.vip_year_auth AS vip_year_auth,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+

@@ -1,0 +1,52 @@
+<include file="Common/_meta"/>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 管理员管理 <span class="c-gray en">&gt;</span> 添加管理员 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<article class="page-container">
+	<form action="{: U('manageAddAction')}" method="post" enctype="multipart/form-data" class="form form-horizontal" id="form-article-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>：管理员帐号</label>
+			<div class="formControls col-xs-4 col-sm-4">
+				<input type="text" class="input-text"  placeholder="管理员帐号"  name="account" value="{$info['account']}">
+			</div>
+			<div class="formControls col-xs-4 col-sm-6"></div>
+		</div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>：管理员名称</label>
+            <div class="formControls col-xs-4 col-sm-4">
+                <input type="text" class="input-text"  placeholder="管理员名称"  name="name" value="{$info['name']}">
+            </div>
+            <div class="formControls col-xs-4 col-sm-6"></div>
+        </div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>：密码</label>
+            <div class="formControls col-xs-4 col-sm-4">
+                <input type="password" class="input-text"  placeholder="密码"  name="password" value="">
+            </div>
+            <div class="formControls col-xs-4 col-sm-6"></div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>角色：</label>
+            <div class="formControls col-xs-4 col-sm-4">
+                <select class="select" name="role">
+                    <option value="">请选择</option>
+                    <volist name="roles" id="vo">
+                        <option value="{$key}" {: $key==$info['role']?'selected':''}>{$vo}</option>
+                    </volist>
+                </select>
+            </div>
+            <div class="formControls col-xs-4 col-sm-6"></div>
+        </div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+                <input type="hidden" name="id" value="{$info['id']}">
+				<button  class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 保存</button>
+			</div>
+		</div>
+	</form>
+</article>
+
+
+</body>
+</html>

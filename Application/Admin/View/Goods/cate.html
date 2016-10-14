@@ -1,0 +1,96 @@
+<include file="Common/_meta"/>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 商品管理 <span class="c-gray en">&gt;</span> 分类列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="cl pd-5 bg-1 bk-gray mt-20">
+		<span class="l">
+			<a href="{: U('operateCate')}" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加分类</a>
+		</span>
+</div>
+
+<div class="page-container">
+	<div class="mt-20 dataTables_wrapper no-footer">
+	<table class="table table-border table-bordered table-hover table-bg table-sort" id="layer-photos">
+		<thead>
+			<tr class="text-c">
+				<th width="120">序号</th>
+				<th width="180">类型</th>
+				<th width="180">二级分类</th>
+				<th width="120">排序</th>
+				<th width="160">状态</th>
+				<th width="">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		<volist name="cates" id="vo">
+            <tr class="text-c">
+                <td rowspan="{: count($vo['child'])+1}">{$i}</td>
+                <td rowspan="{: count($vo['child'])+1}"> <a href="{: U('operateCate',array('id'=>$vo['id']))}">{: $vo['name']}</a></td>
+                <if condition="!$vo['child']">
+                    <td></td>
+                    <td>{$vo['sort']}</td>
+                    <td>{: $vo['status']==1?'启用':'停用'}</td>
+                    <td class="td-manage">
+                        <a href="{: U('operateCate',array('id'=>$vo['id']))}">编辑</a>
+                        <a style="text-decoration:none" onClick="status_switch(this,{$vo['id']},'{$vo['name']}')">{: $vo['status']==1?'停用':'启用'}</a>
+                        <a style="text-decoration:none" onClick="del(this,{$vo['id']})">删除</a>
+                    </td>
+                </if>
+            </tr>
+            <volist name="vo['child']" id="ch">
+                <tr class="text-c">
+                    <td>{: $ch['name']}</td>
+                    <td>{$ch['sort']}</td>
+                    <td>{: $ch['status']==1?'启用':'停用'}</td>
+                    <td class="td-manage">
+                        <a href="{: U('operateCate',array('id'=>$ch['id']))}">编辑</a>
+                        <a style="text-decoration:none" onClick="status_switch(this,{$ch['id']},'{$ch['name']}')">{: $ch['status']==1?'停用':'启用'}</a>
+                        <a style="text-decoration:none" onClick="del(this,{$ch['id']})">删除</a>
+                    </td>
+                </tr>
+            </volist>
+
+
+		</volist>
+		</tbody>
+	</table>
+		{$page}
+	</div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/layer/2.1/layer.js"></script>
+<script type="text/javascript">
+
+
+/*用户-停用*/
+function status_switch(obj,id,title){
+	var content=$(obj).text();
+	var str=content=='停用'?'启用':'停用';
+	layer.confirm('确认要'+content+title+'吗？',function(index){
+		$.get("{: U('switchStatus')}",{id:id},function(result){
+			layer.msg(result['msg']);
+			if(!result['code']){
+				$(obj).text(str);
+				content=str=='停用'?'启用':'停用';
+				$(obj).parent().prev().text(content);
+			}
+		});
+
+	});
+}
+
+
+/*用户-删除*/
+function del(obj,id){
+	layer.confirm('确认要删除吗？',function(index){
+		$.get("{: U('del')}",{id:id},function(result){
+			layer.msg(result['msg']);
+			if(!result['code']){
+				$(obj).parents("tr").remove();
+			}
+		});
+
+	});
+}
+</script> 
+</body>
+</html>

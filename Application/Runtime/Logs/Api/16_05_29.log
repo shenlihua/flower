@@ -1,0 +1,30 @@
+[ 2016-05-29T04:59:19+08:00 ] 101.226.68.215 /api.php/Login/loginAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-05-29T04:59:19+08:00 ] 14.17.29.92 /api.php/Login/loginAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011527s ]
+SQL: SHOW COLUMNS FROM `api_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_category` WHERE `status` = 1 ORDER BY rank desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `api_interface` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `api_interface` WHERE `cid` = 1 AND `status` = 1 ORDER BY create_time  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+

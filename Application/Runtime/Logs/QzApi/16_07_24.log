@@ -1,0 +1,543 @@
+[ 2016-07-24T00:03:23+08:00 ] 118.186.143.16 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-24T21:18:42+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = 'd825553d889f05d80b5b8b9cee469df9' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-24T21:18:44+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = 'd825553d889f05d80b5b8b9cee469df9' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-24T21:18:47+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '9dd4e461268c8034f5c8564e155c67a6' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-24T21:18:49+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '9dd4e461268c8034f5c8564e155c67a6' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-24T21:18:50+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-24T21:18:54+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '9dd4e461268c8034f5c8564e155c67a6' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-24T21:19:02+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('30','1469366342','6c0a01a4514df9231b3390e5d021a049') [ RunTime:0.0221s ]
+
+[ 2016-07-24T21:19:04+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('30','1469366344','57cdfb93df42acef234112699640888c') [ RunTime:0.0002s ]
+
+[ 2016-07-24T21:19:05+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('30','1469366345','9e1ffaed6bb0c828eef365ac6a584fff') [ RunTime:0.0002s ]
+
+[ 2016-07-24T21:19:05+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('30','1469366345','9e1ffaed6bb0c828eef365ac6a584fff') [ RunTime:0.0002s ]
+
+[ 2016-07-24T21:33:57+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+ERR: 1146:Table 'qiuxx.qz_location' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qz_location`
+ERR: 1146:Table 'qiuxx.qz_location' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qz_location`
+
+[ 2016-07-24T21:35:30+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(22.530364)*sin(ps_x)*cos(114.039001-ps_y) + cos(22.530364)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 AND Location.ps_x is not null AND Location.ps_y is not null ORDER BY distance asc LIMIT 0,8   [ RunTime:0.0086s ]
+
+[ 2016-07-24T21:36:13+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('30','1469367373','12a5b9fe27948497678f7ead607fe9fa') [ RunTime:0.0002s ]
+
+[ 2016-07-24T21:36:15+08:00 ] 223.104.38.206 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('30','1469367375','8b6fed5ff6a6b1cf6d1143a2f99c9ccf') [ RunTime:0.0002s ]
+
+[ 2016-07-24T21:37:53+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(22.530364)*sin(ps_x)*cos(114.039001-ps_y) + cos(22.530364)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 AND Location.ps_x is not null AND Location.ps_y is not null ORDER BY distance asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-24T22:16:49+08:00 ] 59.40.133.191 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('/Temp/2016-07-24/5794cdd0da516.jpg','/Temp/2016-07-24/5794cdd0da516_thumb.jpg','1469369809','1') [ RunTime:0.0077s ]
+
+[ 2016-07-24T22:19:48+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(22.530364)*sin(ps_x)*cos(114.039001-ps_y) + cos(22.530364)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 AND Location.ps_x is not null AND Location.ps_y is not null ORDER BY distance asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-24T22:20:05+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(22.530364)*sin(ps_x)*cos(114.039001-ps_y) + cos(22.530364)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 AND Location.ps_x is not null AND Location.ps_y is not null ORDER BY distance asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-24T22:20:13+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(22.530364)*sin(ps_x)*cos(114.039001-ps_y) + cos(22.530364)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 AND Location.ps_x is not null AND Location.ps_y is not null ORDER BY distance asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-24T22:20:35+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0243s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(".","_thumb.",user_head_img)) as user_head_img_thumb,6378.137*acos(sin(22.530364)*sin(ps_x)*cos(114.039001-ps_y) + cos(22.530364)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 AND Location.ps_x is not null AND Location.ps_y is not null ORDER BY distance asc LIMIT 0,8   [ RunTime:0.0004s ]
+
+[ 2016-07-24T22:23:52+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,6378.137*acos(sin(22.530364)*sin(ps_x)*cos(114.039001-ps_y) + cos(22.530364)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 AND Location.ps_x is not null AND Location.ps_y is not null ORDER BY distance asc LIMIT 0,8   [ RunTime:0.0004s ]
+
+[ 2016-07-24T22:24:57+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0005s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,6378.137*acos(sin(22.530364)*sin(ps_x)*cos(114.039001-ps_y) + cos(22.530364)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 AND Location.ps_x is not null AND Location.ps_y is not null ORDER BY distance asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-24T22:28:17+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),6378.137*acos(sin(22.530364)*sin(ps_x)*cos(114.039001-ps_y) + cos(22.530364)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 AND Location.ps_x is not null AND Location.ps_y is not null ORDER BY distance asc LIMIT 0,8   [ RunTime:0.0004s ]
+
+[ 2016-07-24T22:29:15+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),6378.137*acos(sin(22.530364)*sin(ps_x)*cos(114.039001-ps_y) + cos(22.530364)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 AND Location.ps_x is not null AND Location.ps_y is not null ORDER BY distance asc LIMIT 0,8   [ RunTime:0.0004s ]
+
+[ 2016-07-24T22:30:10+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getNearbyUsers/user_x/22.530364/user_y/114.039001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,6378.137*acos(sin(22.530364)*sin(ps_x)*cos(114.039001-ps_y) + cos(22.530364)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 AND Location.ps_x is not null AND Location.ps_y is not null ORDER BY distance asc LIMIT 0,8   [ RunTime:0.0004s ]
+
+[ 2016-07-24T22:49:26+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-07-24T22:50:19+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = '486c54493688c691486da4ae7c3b65be' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+
+[ 2016-07-24T22:50:46+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = '486c54493688c691486da4ae7c3b65be' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+
+[ 2016-07-24T22:51:04+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = '486c54493688c691486da4ae7c3b65be' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `qz_location` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `qz_location` SET `update_time`='1469371864',`user_id`='3' WHERE `ps_id` = 1 [ RunTime:0.0002s ]
+
+[ 2016-07-24T22:53:23+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = '486c54493688c691486da4ae7c3b65be' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: ps_x /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2016-07-24T22:53:43+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = '486c54493688c691486da4ae7c3b65be' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: ps_x /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2016-07-24T22:53:52+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = '486c54493688c691486da4ae7c3b65be' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: ps_x /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2016-07-24T22:54:05+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = '486c54493688c691486da4ae7c3b65be' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: ps_x /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1303 行.
+
+[ 2016-07-24T22:55:21+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = '486c54493688c691486da4ae7c3b65be' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `qz_location` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `qz_location` SET `ps_x`='22.546554',`ps_y`='114.06251',`update_time`='1469372121',`user_id`='3' WHERE `ps_id` = 1 [ RunTime:0.0002s ]
+
+[ 2016-07-24T22:56:07+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'e0b34eda4ff6dd7d4044889dbd130c1a' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-24T22:56:30+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'e0b34eda4ff6dd7d4044889dbd130c1a' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `qz_location` WHERE `user_id` = 15 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_location` (`ps_x`,`ps_y`,`update_time`,`user_id`) VALUES ('22.553171','114.056195','1469372190','15') [ RunTime:0.0002s ]
+
+[ 2016-07-24T22:56:52+08:00 ] 59.40.133.191 /qzApi.php/Currency/updateUserLocation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'e0b34eda4ff6dd7d4044889dbd130c1a' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `qz_location` WHERE `user_id` = 15 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `qz_location` SET `ps_x`='22.553171',`ps_y`='114.05245898',`update_time`='1469372212',`user_id`='15' WHERE `ps_id` = 3 [ RunTime:0.0002s ]
+
+[ 2016-07-24T23:04:18+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getUserInfo/user_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_level`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-24T23:08:31+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-07-24T23:08:31+08:00 ] 180.153.206.17 /qzApi.php/UserInfo/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-07-24T23:08:31+08:00 ] 112.64.235.89 /qzApi.php/UserInfo/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-07-24T23:08:38+08:00 ] 59.40.133.191 /qzApi.php/UserInfo/getUserInfo/user_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_level`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-24T23:08:38+08:00 ] 112.65.193.14 /qzApi.php/UserInfo/getUserInfo/user_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0088s ]
+SQL: SELECT `user_id`,`user_level`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-24T23:08:50+08:00 ] 180.153.206.24 /qzApi.php/UserInfo/getUserInfo/user_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_level`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+

@@ -1,0 +1,36 @@
+[ 2016-06-11T11:28:29+08:00 ] 113.110.183.238 /qzApi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-06-11T11:38:56+08:00 ] 113.110.183.238 /qzApi.php/Currency/activityList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `qz_activity` [ RunTime:0.0005s ]
+SQL: SELECT `aty_id`,`aty_uid`,`aty_content`,`aty_create_time` FROM `qz_activity` ORDER BY aty_create_time desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT `user_id`,`user_level`,`user_auth`,`user_name`,`user_sex`,concat("http://qiuxx.com/Uploads/",user_head_img) as head_img FROM `qz_user` WHERE ( 1=1 AND user_id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_aty_expand` [ RunTime:0.0003s ]
+SQL: SELECT `expand_aty_img`,`expand_aty_thumb_img` FROM `qz_aty_expand` WHERE ( expand_status=1 AND expand_aty_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_level`,`user_auth`,`user_name`,`user_sex`,concat("http://qiuxx.com/Uploads/",user_head_img) as head_img FROM `qz_user` WHERE ( 1=1 AND user_id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `expand_aty_img`,`expand_aty_thumb_img` FROM `qz_aty_expand` WHERE ( expand_status=1 AND expand_aty_id='5' )  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_level`,`user_auth`,`user_name`,`user_sex`,concat("http://qiuxx.com/Uploads/",user_head_img) as head_img FROM `qz_user` WHERE ( 1=1 AND user_id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `expand_aty_img`,`expand_aty_thumb_img` FROM `qz_aty_expand` WHERE ( expand_status=1 AND expand_aty_id='4' )  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_level`,`user_auth`,`user_name`,`user_sex`,concat("http://qiuxx.com/Uploads/",user_head_img) as head_img FROM `qz_user` WHERE ( 1=1 AND user_id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `expand_aty_img`,`expand_aty_thumb_img` FROM `qz_aty_expand` WHERE ( expand_status=1 AND expand_aty_id='3' )  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_level`,`user_auth`,`user_name`,`user_sex`,concat("http://qiuxx.com/Uploads/",user_head_img) as head_img FROM `qz_user` WHERE ( 1=1 AND user_id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `expand_aty_img`,`expand_aty_thumb_img` FROM `qz_aty_expand` WHERE ( expand_status=1 AND expand_aty_id='2' )  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_level`,`user_auth`,`user_name`,`user_sex`,concat("http://qiuxx.com/Uploads/",user_head_img) as head_img FROM `qz_user` WHERE ( 1=1 AND user_id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `expand_aty_img`,`expand_aty_thumb_img` FROM `qz_aty_expand` WHERE ( expand_status=1 AND expand_aty_id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qz_activity` LIMIT 1   [ RunTime:0.0010s ]
+

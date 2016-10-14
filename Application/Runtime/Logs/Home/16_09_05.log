@@ -1,0 +1,407 @@
+[ 2016-09-05T12:40:43+08:00 ] ::1 /project/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-05T12:40:55+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0090s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_num`) VALUES ('aaaa','123') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0060s ]
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`thumb_img`,`create_time`) VALUES ('4','aa','c','1473050455')
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`thumb_img`,`create_time`) VALUES ('4','aa','c','1473050455')
+
+[ 2016-09-05T12:42:32+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_num`) VALUES ('aaaa','123') [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`thumb_img`,`create_time`) VALUES ('4','aa','c','1473050552')
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`thumb_img`,`create_time`) VALUES ('4','aa','c','1473050552')
+
+[ 2016-09-05T12:42:54+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0050s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_num`) VALUES ('aaaa','123') [ RunTime:0.0000s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('5','aa','1473050574') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-05T12:43:30+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_num`) VALUES ('aaaa','123') [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '5' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('5','aa','1473050610')
+ERR: 1062:Duplicate entry '5' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('5','aa','1473050610')
+
+[ 2016-09-05T12:43:41+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_num`) VALUES ('aaaa','123') [ RunTime:0.0000s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050621') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-05T12:45:18+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050718') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-05T12:45:22+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050722')
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050722')
+
+[ 2016-09-05T12:45:46+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050746')
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050746')
+
+[ 2016-09-05T12:45:47+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050747')
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050747')
+
+[ 2016-09-05T12:45:47+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050747')
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050747')
+
+[ 2016-09-05T12:45:47+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0070s ]
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050747')
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050747')
+
+[ 2016-09-05T12:45:48+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0050s ]
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050747')
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050747')
+
+[ 2016-09-05T12:45:48+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0060s ]
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050748')
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050748')
+
+[ 2016-09-05T12:45:48+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050748')
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050748')
+
+[ 2016-09-05T12:45:48+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050748')
+ERR: 1062:Duplicate entry '6' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('6','aa','1473050748')
+
+[ 2016-09-05T12:45:56+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0050s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('8','aa','1473050756') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-05T12:46:01+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0040s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('8','aa','1473050761') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-05T12:46:01+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0060s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('8','aa','1473050761') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-05T12:46:02+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('8','aa','1473050761') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-05T12:46:02+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('8','aa','1473050762') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-05T12:46:02+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('8','aa','1473050762') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-05T12:46:24+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0050s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('8','aa','1473050784') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-05T12:46:39+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-05T12:46:40+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-05T12:52:12+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '8' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('8','aa','1473051132')
+ERR: 1062:Duplicate entry '8' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('8','aa','1473051132')
+
+[ 2016-09-05T12:52:21+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry '9' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('9','aa','1473051141')
+ERR: 1062:Duplicate entry '9' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('9','aa','1473051141')
+
+[ 2016-09-05T12:52:25+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('10','aa','1473051145') [ RunTime:0.0010s ]
+
+[ 2016-09-05T12:52:44+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0040s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('10','aa','1473051164') [ RunTime:0.0000s ]
+
+[ 2016-09-05T12:53:02+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '10' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('10','aa','1473051182')
+ERR: 1062:Duplicate entry '10' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('10','aa','1473051182')
+
+[ 2016-09-05T12:53:07+08:00 ] ::1 /project/index.php/Index/trank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0060s ]
+SQL: INSERT INTO `qz_temp_image` (`id`,`img`,`create_time`) VALUES ('10','aa','1473051187') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

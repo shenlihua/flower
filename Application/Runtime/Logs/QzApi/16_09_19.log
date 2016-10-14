@@ -1,0 +1,478 @@
+[ 2016-09-19T18:15:05+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-19T18:15:22+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0070s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: name D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2016-09-19T18:15:45+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0080s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: condition D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2016-09-19T18:16:05+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0080s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: introduce D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2016-09-19T18:16:18+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: x D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2016-09-19T18:16:46+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: y D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2016-09-19T18:16:54+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-09-19T18:21:41+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-09-19T18:21:55+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\project\Application\QzApi\Model\UserGroupModel.class.php 第 41 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\project\Application\QzApi\Model\UserGroupModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: result D:\WWW\project\Application\QzApi\Model\UserGroupModel.class.php 第 45 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-19T18:22:44+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0100s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-09-19T18:23:21+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-09-19T18:23:53+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-09-19T18:24:33+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0080s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-19T18:25:23+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-19T18:34:20+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0100s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-19T18:35:18+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\project\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `qz_user_group` (`name`,`condition`,`introduce`,`x`,`y`,`update_time`,`create_time`,`status`,`addr`,`level`,`user_count`,`create_user`) VALUES ('群名称','群条件a群条件a群条件a','群介绍a群介绍a群介绍a','113.7602220000','23.0097360000','1474281317','1474281317','1','广东省东莞市东莞市市辖区东莞大道','1','1','3') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_name D:\WWW\project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_user_group_relation` [ RunTime:0.0090s ]
+SQL: INSERT INTO `qz_user_group_relation` (`user_id`,`group_id`) VALUES ('3','1') [ RunTime:0.0010s ]
+
+[ 2016-09-19T19:00:36+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0100s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id D:\WWW\project\Application\QzApi\Controller\OperateController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\project\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `qz_user_group` (`name`,`condition`,`introduce`,`x`,`y`,`update_time`,`create_time`,`status`,`addr`,`level`,`user_count`,`create_user`) VALUES ('群名称','群条件a群条件a群条件a','群介绍a群介绍a群介绍a','113.7602220000','23.0097360000','1474282835','1474282835','1','广东省东莞市东莞市市辖区东莞大道','1','1','3') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_name D:\WWW\project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_user_group_relation` [ RunTime:0.0080s ]
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_user_group_relation` (`user_id`,`group_id`) VALUES ('3','2')
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_user_group_relation` (`user_id`,`group_id`) VALUES ('3','2')
+
+[ 2016-09-19T19:00:52+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0080s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_id D:\WWW\project\Application\QzApi\Controller\OperateController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\project\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `qz_user_group` (`name`,`condition`,`introduce`,`x`,`y`,`update_time`,`create_time`,`status`,`addr`,`level`,`user_count`,`create_user`) VALUES ('群名称','群条件a群条件a群条件a','群介绍a群介绍a群介绍a','113.7602220000','23.0097360000','1474282851','1474282851','1','广东省东莞市东莞市市辖区东莞大道','1','1','3') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_name D:\WWW\project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_user_group_relation` [ RunTime:0.0070s ]
+SQL: INSERT INTO `qz_user_group_relation` (`user_id`,`group_id`) VALUES ('3','3') [ RunTime:0.0010s ]
+SQL: UPDATE `qz_user_group` SET `number`='100003' WHERE `id` = '3' [ RunTime:0.0000s ]
+NOTIC: [4096] Argument 1 passed to QzApi\Controller\RyController::groupCreate() must be of the type array, null given, called in D:\WWW\project\Application\QzApi\Controller\OperateController.class.php on line 214 and defined D:\WWW\project\Application\QzApi\Controller\RyController.class.php 第 58 行.
+
+[ 2016-09-19T19:01:43+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_id D:\WWW\project\Application\QzApi\Controller\OperateController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-19T19:15:16+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id D:\WWW\project\Application\QzApi\Controller\OperateController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qz_u_ry` (`user_id`,`ry_id`,`ry_token`,`ry_create_time`,`ry_update_time`) VALUES ('3','1474283715_3','MN82u9ZaGcSrpfRMucNEnUbQGYkAGHdlP4y6uzZ9sslXSrFheifILmgjgve/6mdO4ntVrbPfTnYuabmHFDdXVdWpTW1I2/cM','1474283715','1474283715') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\project\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `qz_user_group` (`name`,`condition`,`introduce`,`x`,`y`,`update_time`,`create_time`,`status`,`addr`,`level`,`user_count`,`create_user`) VALUES ('群名称','群条件a群条件a群条件a','群介绍a群介绍a群介绍a','113.7602220000','23.0097360000','1474283715','1474283715','1','广东省东莞市东莞市市辖区东莞大道','1','1','3') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_name D:\WWW\project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_user_group_relation` [ RunTime:0.0090s ]
+SQL: INSERT INTO `qz_user_group_relation` (`user_id`,`group_id`) VALUES ('3','4') [ RunTime:0.0010s ]
+NOTIC: [4096] Argument 1 passed to QzApi\Controller\RyController::groupCreate() must be of the type array, null given, called in D:\WWW\project\Application\QzApi\Controller\OperateController.class.php on line 214 and defined D:\WWW\project\Application\QzApi\Controller\RyController.class.php 第 58 行.
+
+[ 2016-09-19T19:15:43+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id D:\WWW\project\Application\QzApi\Controller\OperateController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-19T19:16:48+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id D:\WWW\project\Application\QzApi\Controller\OperateController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-19T19:18:17+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0080s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id D:\WWW\project\Application\QzApi\Controller\OperateController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '3' for key 'userid'
+ [ SQL语句 ] : INSERT INTO `qz_u_ry` (`user_id`,`ry_id`,`ry_token`,`ry_create_time`,`ry_update_time`) VALUES ('3','1474283896_3','BM/4jia0S+0wtLNzhQxl0vrkrEsfM6W84FB5LYf4H3x2BFmOW2nHVMJV3ic4nOeLM75LrgUiZwtTcUgWHWx2vY2vhNJDfCHM','1474283896','1474283896')
+ERR: 1062:Duplicate entry '3' for key 'userid'
+ [ SQL语句 ] : INSERT INTO `qz_u_ry` (`user_id`,`ry_id`,`ry_token`,`ry_create_time`,`ry_update_time`) VALUES ('3','1474283896_3','BM/4jia0S+0wtLNzhQxl0vrkrEsfM6W84FB5LYf4H3x2BFmOW2nHVMJV3ic4nOeLM75LrgUiZwtTcUgWHWx2vY2vhNJDfCHM','1474283896','1474283896')
+
+[ 2016-09-19T19:18:37+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-19T19:18:47+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_id D:\WWW\project\Application\QzApi\Controller\OperateController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-19T19:19:01+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0090s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-19T19:19:11+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0080s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\project\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `qz_user_group` (`name`,`condition`,`introduce`,`x`,`y`,`update_time`,`create_time`,`status`,`addr`,`level`,`user_count`,`create_user`) VALUES ('群名称','群条件a群条件a群条件a','群介绍a群介绍a群介绍a','113.7602220000','23.0097360000','1474283950','1474283950','1','广东省东莞市东莞市市辖区东莞大道','1','1','3') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_name D:\WWW\project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_user_group_relation` [ RunTime:0.0080s ]
+SQL: INSERT INTO `qz_user_group_relation` (`user_id`,`group_id`) VALUES ('3','5') [ RunTime:0.0000s ]
+NOTIC: [4096] Argument 1 passed to QzApi\Controller\RyController::groupCreate() must be of the type array, string given, called in D:\WWW\project\Application\QzApi\Controller\OperateController.class.php on line 214 and defined D:\WWW\project\Application\QzApi\Controller\RyController.class.php 第 58 行.
+
+[ 2016-09-19T19:20:11+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0080s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\project\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `qz_user_group` (`name`,`condition`,`introduce`,`x`,`y`,`update_time`,`create_time`,`status`,`addr`,`level`,`user_count`,`create_user`) VALUES ('群名称','群条件a群条件a群条件a','群介绍a群介绍a群介绍a','113.7602220000','23.0097360000','1474284010','1474284010','1','广东省东莞市东莞市市辖区东莞大道','1','1','3') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_name D:\WWW\project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_user_group_relation` [ RunTime:0.0080s ]
+SQL: INSERT INTO `qz_user_group_relation` (`user_id`,`group_id`) VALUES ('3','6') [ RunTime:0.0000s ]
+SQL: UPDATE `qz_user_group` SET `number`='100006' WHERE `id` = '6' [ RunTime:0.0010s ]
+NOTIC: [4096] Argument 1 passed to QzApi\Controller\RyController::groupCreate() must be of the type array, string given, called in D:\WWW\project\Application\QzApi\Controller\OperateController.class.php on line 214 and defined D:\WWW\project\Application\QzApi\Controller\RyController.class.php 第 58 行.
+
+[ 2016-09-19T19:21:43+08:00 ] ::1 /project/qzApi.php/Operate/createUserGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0080s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qz_user_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_token` WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qz_u_ry` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\project\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `qz_user_group` (`name`,`condition`,`introduce`,`x`,`y`,`update_time`,`create_time`,`status`,`addr`,`level`,`user_count`,`create_user`) VALUES ('群名称','群条件a群条件a群条件a','群介绍a群介绍a群介绍a','113.7602220000','23.0097360000','1474284102','1474284102','1','广东省东莞市东莞市市辖区东莞大道','1','1','3') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_name D:\WWW\project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qz_user_group_relation` [ RunTime:0.0070s ]
+SQL: INSERT INTO `qz_user_group_relation` (`user_id`,`group_id`) VALUES ('3','7') [ RunTime:0.0000s ]
+SQL: UPDATE `qz_user_group` SET `number`='100007' WHERE `id` = '7' [ RunTime:0.0000s ]
+NOTIC: [4096] Argument 1 passed to QzApi\Controller\RyController::groupCreate() must be of the type array, string given, called in D:\WWW\project\Application\QzApi\Controller\OperateController.class.php on line 214 and defined D:\WWW\project\Application\QzApi\Controller\RyController.class.php 第 58 行.
+

@@ -1,0 +1,792 @@
+[ 2016-07-26T11:39:36+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0011s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,6378.137*acos(sin(22.550918)*sin(ps_x)*cos(114.063812-ps_y) + cos(22.550918)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY distance asc,Location.update_time asc LIMIT 0,8   [ RunTime:0.0240s ]
+
+[ 2016-07-26T11:39:36+08:00 ] 101.226.33.202 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,6378.137*acos(sin(22.550918)*sin(ps_x)*cos(114.063812-ps_y) + cos(22.550918)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY distance asc,Location.update_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-26T11:39:36+08:00 ] 101.226.33.218 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,6378.137*acos(sin(22.550918)*sin(ps_x)*cos(114.063812-ps_y) + cos(22.550918)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY distance asc,Location.update_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-26T11:40:23+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0006s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,6378.137*acos(sin(22.550918)*sin(ps_x)*cos(114.063812-ps_y) + cos(22.550918)*cos(ps_x))*0.017453292519943 as distance,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY distance asc,Location.update_time asc LIMIT 0,8   [ RunTime:0.0008s ]
+
+[ 2016-07-26T11:41:53+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,6378.137*acos(sin(22.550918)*sin(ps_x)*cos(114.063812-ps_y) + cos(22.550918)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,Location.update_time asc LIMIT 0,8   [ RunTime:0.0006s ]
+
+[ 2016-07-26T13:09:50+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:10:02+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-07-26T13:10:10+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-26T13:10:21+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-26T13:10:46+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-26T13:10:56+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1146:Table 'qiuxx.qz_ptp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qz_ptp`
+ERR: 1146:Table 'qiuxx.qz_ptp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qz_ptp`
+
+[ 2016-07-26T13:11:49+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_ptp` (`uid`,`to_uid`,`update_time`,`type`) VALUES ('3','1','1469509909','2') [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:21:09+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+ERR: 非法操作:relationUser
+
+[ 2016-07-26T13:21:57+08:00 ] 113.90.81.190 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_ptp` (`uid`,`to_uid`,`update_time`,`type`) VALUES ('3','1','1469510517','2')
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `qz_ptp` (`uid`,`to_uid`,`update_time`,`type`) VALUES ('3','1','1469510517','2')
+
+[ 2016-07-26T13:23:27+08:00 ] 113.90.81.190 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_ptp` (`uid`,`to_uid`,`update_time`,`type`) VALUES ('3','1','1469510607','2') [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:23:30+08:00 ] 113.90.81.190 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0007s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0012s ]
+ERR: 1062:Duplicate entry '3-1-2' for key 'group'
+ [ SQL语句 ] : INSERT INTO `qz_ptp` (`uid`,`to_uid`,`update_time`,`type`) VALUES ('3','1','1469510610','2')
+ERR: 1062:Duplicate entry '3-1-2' for key 'group'
+ [ SQL语句 ] : INSERT INTO `qz_ptp` (`uid`,`to_uid`,`update_time`,`type`) VALUES ('3','1','1469510610','2')
+
+[ 2016-07-26T13:25:32+08:00 ] 113.90.81.190 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:26:24+08:00 ] 113.90.81.190 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0008s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 4 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_ptp` (`uid`,`to_uid`,`type`,`update_time`) VALUES ('3','4','2','1469510784') [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:37:32+08:00 ] 119.136.142.173 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 4 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:37:36+08:00 ] 119.136.142.173 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 10 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_ptp` (`uid`,`to_uid`,`type`,`update_time`) VALUES ('3','10','2','1469511456') [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:40:20+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+ERR: 非法操作:pullBlackRelation
+
+[ 2016-07-26T13:40:46+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: UPDATE `qz_ptp` SET `status`='-1',`update_time`='1469511646' WHERE `uid` = 3 AND `to_uid` = 10 AND `type` = 2 [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:40:51+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: UPDATE `qz_ptp` SET `status`='-1',`update_time`='1469511651' WHERE `uid` = 3 AND `to_uid` = 10 AND `type` = 2 [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:43:00+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0003s ]
+SQL: UPDATE `qz_ptp` SET `update_time`='1469511780' WHERE `uid` = 3 AND `to_uid` = 10 AND `type` = 2 [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:43:13+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: UPDATE `qz_ptp` SET `update_time`='1469511793' WHERE `uid` = 3 AND `to_uid` = 10 AND `type` = 2 [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:46:53+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 10 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `qz_ptp` SET `status`='1',`update_time`='1469512013' WHERE `t_id` = '3' [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:46:57+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 11 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:47:08+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 11 AND `type` = 2 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-26T13:47:12+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 10 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `qz_ptp` SET `status`='-1',`update_time`='1469512032' WHERE `t_id` = '3' [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:47:17+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 10 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `qz_ptp` SET `status`='1',`update_time`='1469512037' WHERE `t_id` = '3' [ RunTime:0.0002s ]
+
+[ 2016-07-26T13:48:25+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0008s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 10 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `qz_ptp` SET `status`='-1',`update_time`='1469512105' WHERE `t_id` = '3' [ RunTime:0.0002s ]
+
+[ 2016-07-26T14:00:11+08:00 ] 119.136.142.173 /qzApi.php/Operate/cancelRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: DELETE FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 10 AND `type` = 2 [ RunTime:0.0002s ]
+
+[ 2016-07-26T14:01:40+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 10 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-26T14:05:26+08:00 ] 119.136.142.173 /qzApi.php/Operate/pullBlackRelation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `qz_ptp` SET `status`='-1',`update_time`='1469513126' WHERE `t_id` = '1' [ RunTime:0.0002s ]
+
+[ 2016-07-26T14:36:27+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+ERR: 非法操作:getRelationUsers
+
+[ 2016-07-26T14:36:37+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+ERR: 非法操作:getRelationUsers
+
+[ 2016-07-26T14:36:56+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+ERR: 1146:Table 'qiuxx.qz_p_t_p' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qz_p_t_p`
+ERR: 1146:Table 'qiuxx.qz_p_t_p' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qz_p_t_p`
+
+[ 2016-07-26T14:37:26+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: limit /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Db/Driver.class.php 第 961 行.
+SQL: SELECT User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE User.user_id = '3' LIMIT 0,20   [ RunTime:0.0003s ]
+
+[ 2016-07-26T14:42:49+08:00 ] 113.90.81.190 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 12 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_ptp` (`uid`,`to_uid`,`type`,`update_time`,`status`) VALUES ('3','12','2','1469515369','1') [ RunTime:0.0002s ]
+
+[ 2016-07-26T14:42:52+08:00 ] 113.90.81.190 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 13 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_ptp` (`uid`,`to_uid`,`type`,`update_time`,`status`) VALUES ('3','13','2','1469515372','1') [ RunTime:0.0002s ]
+
+[ 2016-07-26T14:42:56+08:00 ] 113.90.81.190 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 14 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_ptp` (`uid`,`to_uid`,`type`,`update_time`,`status`) VALUES ('3','14','2','1469515376','1') [ RunTime:0.0002s ]
+
+[ 2016-07-26T14:42:58+08:00 ] 113.90.81.190 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 15 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_ptp` (`uid`,`to_uid`,`type`,`update_time`,`status`) VALUES ('3','15','2','1469515378','1') [ RunTime:0.0002s ]
+
+[ 2016-07-26T14:43:01+08:00 ] 113.90.81.190 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 16 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_ptp` (`uid`,`to_uid`,`type`,`update_time`,`status`) VALUES ('3','16','2','1469515381','1') [ RunTime:0.0002s ]
+
+[ 2016-07-26T14:43:02+08:00 ] 113.90.81.190 /qzApi.php/Operate/relationUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0007s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 16 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-26T14:43:22+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: limit /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Db/Driver.class.php 第 961 行.
+SQL: SELECT User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE User.user_id = '3' LIMIT 0,20   [ RunTime:0.0003s ]
+
+[ 2016-07-26T14:43:52+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0007s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: limit /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Db/Driver.class.php 第 961 行.
+SQL: SELECT User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE User.user_id = '3' LIMIT 0,20   [ RunTime:0.0001s ]
+
+[ 2016-07-26T14:44:26+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: limit /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Db/Driver.class.php 第 961 行.
+SQL: SELECT User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE User.user_id = '3' LIMIT 0,20   [ RunTime:0.0001s ]
+
+[ 2016-07-26T14:44:34+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: limit /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Db/Driver.class.php 第 961 行.
+SQL: SELECT User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-07-26T14:45:18+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' LIMIT 8,8   [ RunTime:0.0003s ]
+
+[ 2016-07-26T14:45:42+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' LIMIT 0,8   [ RunTime:0.0003s ]
+
+[ 2016-07-26T14:46:11+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0003s ]
+SQL: SELECT User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' LIMIT 0,8   [ RunTime:0.0003s ]
+
+[ 2016-07-26T14:50:47+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status,Ptp.update_time AS update_time FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' ORDER BY Ptp.update_time desc LIMIT 0,8   [ RunTime:0.0004s ]
+
+[ 2016-07-26T14:51:25+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status,Ptp.update_time AS update_time FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' ORDER BY Ptp.update_time desc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-26T14:51:58+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0318s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+ERR: 1054:Unknown column '' in 'field list'
+ [ SQL语句 ] : SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,``,FROM_UNIXTIME(update_time,"%Y-%m-%d")  as update_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' ORDER BY Ptp.update_time desc LIMIT 0,8  
+ERR: 1054:Unknown column '' in 'field list'
+ [ SQL语句 ] : SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,``,FROM_UNIXTIME(update_time,"%Y-%m-%d")  as update_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' ORDER BY Ptp.update_time desc LIMIT 0,8  
+
+[ 2016-07-26T14:52:51+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0003s ]
+ERR: 1052:Column 'update_time' in field list is ambiguous
+ [ SQL语句 ] : SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,FROM_UNIXTIME(update_time,"%Y-%m-%d")  as update_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' ORDER BY Ptp.update_time desc LIMIT 0,8  
+ERR: 1052:Column 'update_time' in field list is ambiguous
+ [ SQL语句 ] : SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,FROM_UNIXTIME(update_time,"%Y-%m-%d")  as update_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' ORDER BY Ptp.update_time desc LIMIT 0,8  
+
+[ 2016-07-26T14:53:11+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0007s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+ERR: 1052:Column 'update_time' in field list is ambiguous
+ [ SQL语句 ] : SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,FROM_UNIXTIME(update_time,"%Y-%m-%d")  as relation_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' ORDER BY relation_time desc LIMIT 0,8  
+ERR: 1052:Column 'update_time' in field list is ambiguous
+ [ SQL语句 ] : SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,FROM_UNIXTIME(update_time,"%Y-%m-%d")  as relation_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' ORDER BY relation_time desc LIMIT 0,8  
+
+[ 2016-07-26T14:53:17+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+ERR: 1052:Column 'update_time' in field list is ambiguous
+ [ SQL语句 ] : SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,FROM_UNIXTIME(update_time,"%Y-%m-%d")  as relation_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' ORDER BY relation_time desc LIMIT 0,8  
+ERR: 1052:Column 'update_time' in field list is ambiguous
+ [ SQL语句 ] : SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,FROM_UNIXTIME(update_time,"%Y-%m-%d")  as relation_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' ORDER BY relation_time desc LIMIT 0,8  
+
+[ 2016-07-26T14:53:34+08:00 ] 113.90.81.190 /qzApi.php/Operate/getRelationUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0008s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,if(user_birthday,FROM_UNIXTIME(user_birthday,"%Y-%m-%d"),"") as user_birthday,FROM_UNIXTIME(Ptp.update_time,"%Y-%m-%d")  as relation_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_address AS user_address,User.user_sex AS user_sex,Ptp.status AS status FROM qz_user User LEFT JOIN qz_ptp Ptp ON User.user_id=Ptp.to_uid WHERE `uid` = '3' ORDER BY relation_time desc LIMIT 0,8   [ RunTime:0.0004s ]
+
+[ 2016-07-26T17:30:26+08:00 ] 14.221.80.176 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469525426','c9d0a154534c22be460371e63a19f912') [ RunTime:0.0051s ]
+
+[ 2016-07-26T17:40:15+08:00 ] 14.221.80.176 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469526015','ae5fb7fb53bf280784b128edcdbcaf52') [ RunTime:0.0002s ]
+
+[ 2016-07-26T17:44:14+08:00 ] 14.221.80.176 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469526254','58c7a288d3213b1132355820e2026d49') [ RunTime:0.0002s ]
+
+[ 2016-07-26T17:50:32+08:00 ] 14.221.80.176 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469526632','f8a0215aeccf2f1de42a6ca84cd600a0') [ RunTime:0.0002s ]
+

@@ -1,0 +1,3537 @@
+[ 2016-07-20T15:26:53+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013677s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T15:26:54+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700790562' AND `create_time` > 1468999603 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700790562','4865','1','1468999614') [ RunTime:0.0003s ]
+
+[ 2016-07-20T15:26:57+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:27:13+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:27:21+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:27:23+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:41:36+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:41:37+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700790562' AND `create_time` > 1469000486 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700790562','21016','1','1469000497') [ RunTime:0.0003s ]
+
+[ 2016-07-20T15:41:41+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:41:47+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:41:52+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:41:54+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:42:02+08:00 ] 14.156.171.109 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index: image /www/web/qiuxx/public_html/Application/QzApi/Controller/CurrencyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: tmp_name /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 280 行.
+
+[ 2016-07-20T15:42:31+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1587799956595' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T15:42:32+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-07-20T15:42:46+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T15:42:46+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700790584' AND `create_time` > 1469000556 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700790584','6935','1','1469000566') [ RunTime:0.0003s ]
+
+[ 2016-07-20T15:43:03+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:43:20+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:43:26+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:43:32+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:43:34+08:00 ] 14.156.171.109 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '15700790584' AND `verify` = '5854655' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T15:43:49+08:00 ] 14.156.171.109 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '15700790584' AND `verify` = '5854655' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:44:11+08:00 ] 14.156.171.109 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined index: image /www/web/qiuxx/public_html/Application/QzApi/Controller/CurrencyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: tmp_name /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 280 行.
+
+[ 2016-07-20T15:51:36+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '12840870543' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T15:51:36+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '12840870543' AND `create_time` > 1469001086 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('12840870543','4176','1','1469001096') [ RunTime:0.0003s ]
+
+[ 2016-07-20T15:51:43+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '12840870543' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:51:48+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '12840870543' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:51:53+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '12840870543' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:51:55+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '12840870543' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:52:05+08:00 ] 14.156.171.109 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f2da5eb8da.jpg','./Temp/2016-07-20/thumb578f2da5eb8da.jpg','1469001125','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T15:53:37+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1570079058' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T15:53:37+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-07-20T15:53:40+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790586' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T15:53:41+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700790586' AND `create_time` > 1469001211 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700790586','2389','1','1469001221') [ RunTime:0.0003s ]
+
+[ 2016-07-20T15:53:49+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790586' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:54:05+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790586' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:54:11+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790586' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T15:54:17+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790586' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T15:55:18+08:00 ] 14.156.171.109 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0006s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f2e669f7e0.jpg','./Temp/2016-07-20/thumb578f2e669f7e0.jpg','1469001318','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T16:03:51+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790566' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T16:03:52+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700790566' AND `create_time` > 1469001821 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700790566','6294','1','1469001832') [ RunTime:0.0003s ]
+
+[ 2016-07-20T16:03:55+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790566' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:04:01+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790566' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:04:06+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790566' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:04:08+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790566' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:04:18+08:00 ] 14.156.171.109 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f30823be71.jpg','./Temp/2016-07-20/thumb578f30823be71.jpg','1469001858','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T16:08:05+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:08:06+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700790584' AND `create_time` > 1469002075 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700790584','9264','1','1469002086') [ RunTime:0.0004s ]
+
+[ 2016-07-20T16:08:11+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:08:18+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:08:23+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:08:25+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790584' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:08:35+08:00 ] 14.156.171.109 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f31836e50c.jpg','./Temp/2016-07-20/thumb578f31836e50c.jpg','1469002115','1') [ RunTime:0.0105s ]
+
+[ 2016-07-20T16:09:40+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700780542' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T16:09:40+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700780542' AND `create_time` > 1469002170 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700780542','31095','1','1469002180') [ RunTime:0.0003s ]
+
+[ 2016-07-20T16:09:44+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700780542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:09:50+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700780542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:09:55+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700780542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:09:57+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700780542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:10:06+08:00 ] 14.156.171.109 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f31de2b521.jpg','./Temp/2016-07-20/thumb578f31de2b521.jpg','1469002206','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T16:19:35+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:19:36+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700790562' AND `create_time` > 1469002765 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700790562','3241','1','1469002776') [ RunTime:0.0003s ]
+
+[ 2016-07-20T16:19:52+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:20:01+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:20:17+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:20:21+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:20:39+08:00 ] 14.156.171.109 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f345737030.jpg','./Temp/2016-07-20/thumb578f345737030.jpg','1469002839','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T16:21:59+08:00 ] 14.156.171.109 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0006s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f34a748d8c.jpg','./Temp/2016-07-20/thumb578f34a748d8c.jpg','1469002919','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T16:51:09+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790582' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T16:51:10+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700790582' AND `create_time` > 1469004659 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700790582','7361','1','1469004670') [ RunTime:0.0003s ]
+
+[ 2016-07-20T16:51:26+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790582' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:51:37+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790582' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T16:51:53+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790582' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:51:56+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790582' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:52:11+08:00 ] 14.156.171.109 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f3bbbc16d8.jpg','./Temp/2016-07-20/thumb578f3bbbc16d8.jpg','1469004731','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T16:54:35+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700780542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:54:35+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700780542' AND `create_time` > 1469004865 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700780542','1278','1','1469004875') [ RunTime:0.0003s ]
+
+[ 2016-07-20T16:54:50+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700780542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:55:02+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700780542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:55:17+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700780542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:55:21+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.1410s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700780542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T16:55:41+08:00 ] 14.156.171.109 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f3c8d3464f.jpg','./Temp/2016-07-20/thumb578f3c8d3464f.jpg','1469004941','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T17:37:45+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T17:37:50+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:37:50+08:00 ] 119.122.222.68 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18702783614' AND `create_time` > 1469007460 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('18702783614','81054','1','1469007470') [ RunTime:0.0003s ]
+
+[ 2016-07-20T17:37:53+08:00 ] 119.122.222.68 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18702783614' AND `create_time` > 1469007463 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T17:37:55+08:00 ] 119.122.222.68 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18702783614' AND `create_time` > 1469007465 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T17:38:05+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:38:12+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:38:22+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:38:36+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:38:56+08:00 ] 119.122.222.68 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f46b01a569.jpg','./Temp/2016-07-20/thumb578f46b01a569.jpg','1469007536','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T17:39:00+08:00 ] 119.122.222.68 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '81054' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_phone`,`user_password`,`user_sex`,`y`,`x`,`create_time`,`update_time`,`user_num`,`user_head_img`,`user_address`) VALUES ('a蒜','18702783614','e10adc3949ba59abbe56e057f20f883e','1','114.099777','22.607421','1469007540','1469007540','100017','./Temp/2016-07-20/578f46b01a569.jpg','广东省深圳市龙岗区S209(清平高速)') [ RunTime:0.0003s ]
+SQL: UPDATE `qz_verify` SET `status`='2' WHERE `phone` = '18702783614' AND `verify` = '81054' AND `status` = 1 [ RunTime:0.0002s ]
+
+[ 2016-07-20T17:43:56+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790542' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T17:43:57+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700790542' AND `create_time` > 1469007826 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700790542','9415','1','1469007837') [ RunTime:0.0003s ]
+
+[ 2016-07-20T17:44:14+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:44:57+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:45:03+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:45:11+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:46:53+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:47:08+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:47:11+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790542' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:51:52+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T17:51:52+08:00 ] 14.156.171.109 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '15700790562' AND `create_time` > 1469008302 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('15700790562','81097','1','1469008312') [ RunTime:0.0003s ]
+
+[ 2016-07-20T17:51:56+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:52:02+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:52:07+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:52:09+08:00 ] 14.156.171.109 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790562' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:55:00+08:00 ] 183.60.163.116 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-07-20T17:55:02+08:00 ] 183.60.163.116 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-07-20T17:55:11+08:00 ] 183.60.163.116 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-07-20T17:59:20+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T17:59:20+08:00 ] 119.122.222.68 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18702783614' AND `create_time` > 1469008750 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('18702783614','45110','1','1469008760') [ RunTime:0.0003s ]
+
+[ 2016-07-20T17:59:32+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:59:38+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:59:47+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T17:59:55+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T18:00:08+08:00 ] 119.122.222.68 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T18:00:35+08:00 ] 119.122.222.68 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f4bc3d5215.jpg','./Temp/2016-07-20/thumb578f4bc3d5215.jpg','1469008835','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T18:00:38+08:00 ] 119.122.222.68 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '45110' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_phone`,`user_password`,`user_sex`,`user_birthday`,`y`,`x`,`create_time`,`update_time`,`user_num`,`user_head_img`,`user_address`) VALUES ('a蒜','18702783614','e10adc3949ba59abbe56e057f20f883e','1','595072806','114.099616','22.607367','1469008838','1469008838','100017','./Temp/2016-07-20/578f4bc3d5215.jpg','广东省深圳市龙岗区S209(清平高速)') [ RunTime:0.0003s ]
+SQL: UPDATE `qz_verify` SET `status`='2' WHERE `phone` = '18702783614' AND `verify` = '45110' AND `status` = 1 [ RunTime:0.0002s ]
+
+[ 2016-07-20T20:47:27+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('15','1469018847','34324ee70af6afa920eb5d802f92da75') [ RunTime:0.0166s ]
+
+[ 2016-07-20T20:47:27+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2016-07-20T20:47:27+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2016-07-20T20:47:27+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-07-20T20:47:27+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-07-20T20:47:28+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:47:28+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:47:31+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:47:31+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-20T20:47:31+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-07-20T20:47:31+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:47:31+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-20T20:47:31+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2016-07-20T20:47:32+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-07-20T20:47:42+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:48:05+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13805372500' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T20:48:17+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '185622276070' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T20:48:20+08:00 ] 144.255.38.3 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-07-20T20:48:29+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '185622276070' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:48:29+08:00 ] 144.255.38.3 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-07-20T20:48:44+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T20:48:47+08:00 ] 144.255.38.3 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18562226070' AND `create_time` > 1469018917 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('18562226070','10946','1','1469018927') [ RunTime:0.0003s ]
+
+[ 2016-07-20T20:49:04+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:49:04+08:00 ] 144.255.38.3 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18562226070' AND `create_time` > 1469018934 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('18562226070','2317','1','1469018944') [ RunTime:0.0003s ]
+
+[ 2016-07-20T20:49:55+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T20:49:57+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T20:50:21+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' AND `user_password` = '68d309812548887400e375eaa036d2f1' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T20:50:29+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' AND `user_password` = '68d309812548887400e375eaa036d2f1' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:50:39+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:50:39+08:00 ] 144.255.38.3 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18562226070' AND `create_time` > 1469019029 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('18562226070','6249','1','1469019039') [ RunTime:0.0003s ]
+
+[ 2016-07-20T20:50:46+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:50:54+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:51:08+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:51:16+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:51:39+08:00 ] 144.255.38.3 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0006s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f73db69fc6.jpg','./Temp/2016-07-20/thumb578f73db69fc6.jpg','1469019099','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T20:51:44+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18562226070' AND `verify` = '6249' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_phone`,`user_password`,`user_sex`,`user_birthday`,`y`,`x`,`create_time`,`update_time`,`user_num`,`user_head_img`,`user_address`) VALUES ('徐英','18562226070','e10adc3949ba59abbe56e057f20f883e','1','262875074','121.42774','37.455059','1469019104','1469019104','100018','./Temp/2016-07-20/578f73db69fc6.jpg','山东省烟台市莱山区轸大路104号') [ RunTime:0.0003s ]
+SQL: UPDATE `qz_verify` SET `status`='2' WHERE `phone` = '18562226070' AND `verify` = '6249' AND `status` = 1 [ RunTime:0.0002s ]
+
+[ 2016-07-20T20:51:59+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '18562226070' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('29','1469019119','82475298f34070ae3bed8901e5d5fd41') [ RunTime:0.0002s ]
+
+[ 2016-07-20T20:53:12+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13583712002' AND `user_password` = '247f0c5804188fbcbed0e6a140aabd45' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T20:53:13+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13583712002' AND `user_password` = '247f0c5804188fbcbed0e6a140aabd45' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:53:14+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13583712002' AND `user_password` = '247f0c5804188fbcbed0e6a140aabd45' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:53:15+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13583712002' AND `user_password` = '247f0c5804188fbcbed0e6a140aabd45' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:53:15+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13583712002' AND `user_password` = '247f0c5804188fbcbed0e6a140aabd45' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:53:17+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13583712002' AND `user_password` = '247f0c5804188fbcbed0e6a140aabd45' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:55:54+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('15','1469019354','1375a59c32c9410bfbf97329e47f3fa5') [ RunTime:0.0002s ]
+
+[ 2016-07-20T20:58:55+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T20:58:55+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:58:59+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:59:02+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:59:06+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T20:59:08+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:01:05+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '185627887678' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-20T21:01:05+08:00 ] 144.255.38.3 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-07-20T21:01:33+08:00 ] 144.255.38.3 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562788767' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-20T21:01:34+08:00 ] 144.255.38.3 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18562788767' AND `create_time` > 1469019684 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('18562788767','92110','1','1469019694') [ RunTime:0.0003s ]
+
+[ 2016-07-20T21:04:46+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('15','1469019886','03d583e88257e3aa11097b37c5ed9eed') [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:13:23+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('15','1469020403','03ba1eebd260011989044eecb806942c') [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:21:16+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18562226070' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '18562226070' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('29','1469020876','1e3edb84101c00f1c7e5542ba681036e') [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:23:22+08:00 ] 118.186.143.17 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:23:22+08:00 ] 118.186.143.17 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '13581644632' AND `create_time` > 1469020992 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('13581644632','39810','1','1469021002') [ RunTime:0.0003s ]
+
+[ 2016-07-20T21:23:35+08:00 ] 118.186.143.17 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:23:44+08:00 ] 118.186.143.17 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:23:53+08:00 ] 118.186.143.17 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:23:54+08:00 ] 118.186.143.17 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:23:56+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '13581644632' AND `verify` = '39810' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_phone`,`user_password`,`user_sex`,`user_birthday`,`y`,`x`,`create_time`,`update_time`,`user_num`,`user_head_img`,`user_address`) VALUES ('空空','13581644632','6de5c55d391f822ef0d93a1a09bf32d7','1','631123200','116.298074','40.144501','1469021036','1469021036','100019',NULL,'北京市昌平区于辛庄路') [ RunTime:0.0004s ]
+SQL: UPDATE `qz_verify` SET `status`='2' WHERE `phone` = '13581644632' AND `verify` = '39810' AND `status` = 1 [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:24:12+08:00 ] 118.186.143.17 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f7b7c918bb.jpg','./Temp/2016-07-20/thumb578f7b7c918bb.jpg','1469021052','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:24:14+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:24:16+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:17+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:17+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:18+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:18+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:19+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:19+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:19+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:20+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:20+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:20+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:20+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:21+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:21+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:21+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:21+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:21+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:22+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:22+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:22+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:22+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:22+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:23+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:23+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:23+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:23+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:29+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:30+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:30+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:30+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:30+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:30+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:38+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:38+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:38+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:38+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:39+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:39+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:39+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:39+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:40+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:40+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:40+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:40+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:41+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:41+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:41+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:41+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:41+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:42+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:24:42+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:36:26+08:00 ] 118.186.143.17 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '13581644632' AND `user_password` = '6de5c55d391f822ef0d93a1a09bf32d7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('30','1469021786','4d14f9228390a2e7cb8527056fbb1052') [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:39:39+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-07-20T21:41:21+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:41:33+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783615' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:41:33+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18702783615' AND `create_time` > 1469022083 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('18702783615','2354','1','1469022093') [ RunTime:0.0004s ]
+
+[ 2016-07-20T21:41:44+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783615' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:43:54+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:43:54+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18702783614' AND `create_time` > 1469022224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('18702783614','6597','1','1469022234') [ RunTime:0.0003s ]
+
+[ 2016-07-20T21:44:10+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:44:11+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18702783614' AND `create_time` > 1469022240 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('18702783614','69310','1','1469022251') [ RunTime:0.0003s ]
+
+[ 2016-07-20T21:46:53+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:47:05+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:48:08+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:48:44+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:49:20+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:49:22+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:25+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-20T21:50:25+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-07-20T21:50:27+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:27+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-07-20T21:50:28+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:28+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-07-20T21:50:28+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:28+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-07-20T21:50:28+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:28+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-07-20T21:50:30+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:30+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-07-20T21:50:30+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:30+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-07-20T21:50:30+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:50:30+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-07-20T21:50:30+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:31+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-07-20T21:50:31+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:31+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-07-20T21:50:31+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:32+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-07-20T21:50:32+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:32+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-07-20T21:50:33+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:33+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-07-20T21:50:54+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:54+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-07-20T21:50:54+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:54+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-07-20T21:50:54+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:50:54+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-07-20T21:51:45+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:51:45+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+
+[ 2016-07-20T21:51:47+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:51:47+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-07-20T21:51:48+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:51:48+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-07-20T21:51:48+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:51:48+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '1870278361' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:51:48+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-07-20T21:51:48+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-07-20T21:52:19+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:52:20+08:00 ] 116.30.240.42 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18702783614' AND `create_time` > 1469022729 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('18702783614','3612','1','1469022740') [ RunTime:0.0003s ]
+
+[ 2016-07-20T21:52:33+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:52:34+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:52:47+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:53:29+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:53:38+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:53:41+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:54:49+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:54:52+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:54:52+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:54:52+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:54:52+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:55:17+08:00 ] 116.30.240.42 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f82c574b81.jpg','./Temp/2016-07-20/thumb578f82c574b81.jpg','1469022917','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:55:27+08:00 ] 111.85.3.140 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '48353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:55:28+08:00 ] 111.85.3.140 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '48353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T21:55:33+08:00 ] 111.85.3.140 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('15','1469022933','afc5e472b9f78b2415710079543b8f91') [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:55:55+08:00 ] 116.30.240.42 /qzApi.php/Currency/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_temp_image` (`img`,`thumb_img`,`create_time`,`status`) VALUES ('./Temp/2016-07-20/578f82ebbc82e.jpg','./Temp/2016-07-20/thumb578f82ebbc82e.jpg','1469022955','1') [ RunTime:0.0002s ]
+
+[ 2016-07-20T21:56:09+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:11+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:11+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:12+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:12+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:12+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:12+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:13+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:13+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:13+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:13+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:14+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:14+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:14+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:14+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:15+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:15+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:15+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:15+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:16+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:16+08:00 ] 116.30.240.42 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2016-07-20T21:56:22+08:00 ] 116.30.240.42 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-20T22:48:10+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('15','1469026090','2fd72a7e1d6baefc7b68878d72898f5b') [ RunTime:0.0002s ]
+
+[ 2016-07-20T22:50:29+08:00 ] 144.255.38.3 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '18353727887' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('15','1469026229','aa4c6f9e3069c50ff9526883948e15cf') [ RunTime:0.0002s ]
+

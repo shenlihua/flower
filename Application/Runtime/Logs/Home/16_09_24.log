@@ -1,0 +1,17 @@
+[ 2016-09-24T11:51:32+08:00 ] ::1 /project/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008757s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008416s ]
+

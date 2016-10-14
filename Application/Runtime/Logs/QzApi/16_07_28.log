@@ -1,0 +1,1265 @@
+[ 2016-07-28T07:43:25+08:00 ] 101.226.33.205 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+
+[ 2016-07-28T07:43:25+08:00 ] 180.163.2.117 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+
+[ 2016-07-28T09:10:41+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469668241','56b9aad7bb0e95b6b4164c271119682e') [ RunTime:0.0002s ]
+
+[ 2016-07-28T09:10:56+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0005s ]
+
+[ 2016-07-28T09:19:06+08:00 ] 113.90.81.190 /qzApi.php/Operate/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0006s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:getUserInfo
+
+[ 2016-07-28T09:19:24+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-07-28T09:19:46+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_level`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: uid /www/web/qiuxx/public_html/Application/QzApi/Controller/UserInfoController.class.php 第 143 行.
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = null AND `to_uid` = 16 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-28T09:19:54+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_level`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 16 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-28T09:20:32+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_level`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: uid /www/web/qiuxx/public_html/Application/QzApi/Controller/UserInfoController.class.php 第 143 行.
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = null AND `to_uid` = 16 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-28T09:20:55+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_level`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uid /www/web/qiuxx/public_html/Application/QzApi/Controller/UserInfoController.class.php 第 143 行.
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = null AND `to_uid` = 16 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-28T09:21:22+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_level`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 16 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-28T09:21:28+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_level`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,concat("http://qiuxx.com/Uploads/",user_head_img) as user_head_img,concat("http://qiuxx.com/Uploads/",REPLACE(user_head_img,".","_thumb.")) as user_head_img_thumb,FROM_UNIXTIME(user_birthday,"%Y-%m-%d") as user_birthday,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 19 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 19 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-28T09:32:37+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469669557','f5e93dbe99341dc6d605ef8efd831890') [ RunTime:0.0002s ]
+
+[ 2016-07-28T09:32:37+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0509s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T09:41:13+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469670073','bfa33c04a1c9c33d57ddeecef8f3c45c') [ RunTime:0.0002s ]
+
+[ 2016-07-28T09:41:14+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T09:41:15+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(22.550918)*sin(ps_x)*cos(114.063812-ps_y) + cos(22.550918)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T09:42:42+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469670162','3871f75bd7e3459244b819d99c2bf5b5') [ RunTime:0.0002s ]
+
+[ 2016-07-28T09:42:42+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0005s ]
+
+[ 2016-07-28T09:49:23+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(22.550918)*sin(ps_x)*cos(114.063812-ps_y) + cos(22.550918)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0005s ]
+
+[ 2016-07-28T09:49:44+08:00 ] 113.90.81.190 /qzApi.php/UserInfo/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_level`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 19 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: SELECT user.user_id,`user_num`,`user_level`,`user_auth`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_token` left JOIN qz_user as user on qz_token.user_id=user.user_id  WHERE `token` = 'edfa4c8e7915b05860557cea69b0e916' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_ptp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_ptp` WHERE `uid` = 3 AND `to_uid` = 19 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-07-28T09:50:51+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469670651','e6a5c7fea959ea24472e0eaffffc8e47') [ RunTime:0.0002s ]
+
+[ 2016-07-28T09:50:52+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T09:53:45+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469670825','9406725e06a753d2292a8e255f491738') [ RunTime:0.0002s ]
+
+[ 2016-07-28T09:53:46+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T10:00:58+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469671258','7af6f18544fcba5e9e432c75ecf3e847') [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:00:59+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:02:41+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469671361','62db7d02ed14ea7e464465f6d7aff64c') [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:03:08+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469671388','c137330bf88bc7488132b20c8898139d') [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:03:09+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:03:32+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469671412','b9994e3cb554ef6e2082dc59ffbc2522') [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:03:34+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T10:03:50+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T10:07:04+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469671624','7a220e872375914b81b5717fb9231072') [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:07:06+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T10:07:14+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T10:07:29+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T10:12:25+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469671945','fcafd518958530adae7ce94824f41677') [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:12:26+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T10:13:07+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469671987','f0c84fdffda513fa18f309fd8d03b923') [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:13:08+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T10:13:57+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469672037','0948e918fc5b81c6c0c1287673f8a7f6') [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:13:58+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T10:16:07+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469672167','1b2d66c94fa88366bb6af114bf0930ee') [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:17:00+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469672220','a37dbca9f209924ee41c001ee81f92ff') [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:24:21+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469672661','ec5d5bb8eb17720d0aa690d403cddfe4') [ RunTime:0.0002s ]
+
+[ 2016-07-28T10:24:22+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T15:44:11+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469691851','bc49ee1a1f33bf25f98303a72f90710d') [ RunTime:0.0002s ]
+
+[ 2016-07-28T15:44:12+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T15:44:25+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469691865','fdccfee58cc33afc7ed3eb765f0c4659') [ RunTime:0.0002s ]
+
+[ 2016-07-28T15:44:26+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T15:45:22+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469691922','df2a29eb6c092bae942d0e894323c57c') [ RunTime:0.0002s ]
+
+[ 2016-07-28T15:45:24+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T15:46:34+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469691994','c099ab8d164e11c7e14f3136871cdf54') [ RunTime:0.0002s ]
+
+[ 2016-07-28T15:46:36+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T16:09:45+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469693385','2ced34fc237460bc27db7aa59b940ddb') [ RunTime:0.0002s ]
+
+[ 2016-07-28T16:09:45+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T16:14:58+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469693698','b93f7fd8ba98d881663448e3fbdc630c') [ RunTime:0.0002s ]
+
+[ 2016-07-28T16:14:58+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T16:15:23+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469693723','b55ad1bad7494019c3b449496a7d6ce8') [ RunTime:0.0002s ]
+
+[ 2016-07-28T16:15:25+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T16:19:46+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469693986','9ac98c76556cb1e0869cf582d9baa3cf') [ RunTime:0.0002s ]
+
+[ 2016-07-28T16:19:47+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T16:20:54+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469694054','7e8e781ac1ae53606ab9b56ff945e483') [ RunTime:0.0002s ]
+
+[ 2016-07-28T16:20:55+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T16:33:44+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469694824','25352f0f4204b9b00fc5047ea3e54fbe') [ RunTime:0.0002s ]
+
+[ 2016-07-28T16:33:45+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T16:34:02+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469694842','e8ed91c077964fda9c08a3fca504e69c') [ RunTime:0.0002s ]
+
+[ 2016-07-28T16:34:04+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T16:54:10+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469696050','0d2320bc44f96a55b3847139c2be14d6') [ RunTime:0.0002s ]
+
+[ 2016-07-28T16:54:11+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T16:55:23+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469696123','4115d2f0b40b5aabaa28af37177f6329') [ RunTime:0.0002s ]
+
+[ 2016-07-28T16:55:24+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T17:07:49+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469696869','f1d3cf3e6c835091514262e84b9170dd') [ RunTime:0.0002s ]
+
+[ 2016-07-28T17:07:49+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T17:08:18+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469696898','8ee5204d4407b1ed6bffed80dadc1c78') [ RunTime:0.0002s ]
+
+[ 2016-07-28T17:08:19+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T17:10:14+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469697014','2fe7b6c4b775fc6b7585d6bcab68c2b6') [ RunTime:0.0002s ]
+
+[ 2016-07-28T17:10:14+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T17:10:54+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469697054','4bfca6b3a367e70d0188ece7200e4af8') [ RunTime:0.0002s ]
+
+[ 2016-07-28T17:10:55+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T17:20:50+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469697650','f918edfb9f739808e44b41bb9ad798bd') [ RunTime:0.0002s ]
+
+[ 2016-07-28T17:20:51+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T17:20:52+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469697652','e0bcdedf7c05fce545d3efa8c1119384') [ RunTime:0.0002s ]
+
+[ 2016-07-28T17:31:15+08:00 ] 60.215.182.197 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469698275','0236cf28fcf9deb8046e0fd527e9c587') [ RunTime:0.0002s ]
+
+[ 2016-07-28T17:31:16+08:00 ] 60.215.182.197 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(37.454469)*sin(ps_x)*cos(121.433439-ps_y) + cos(37.454469)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0006s ]
+
+[ 2016-07-28T17:36:33+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469698593','4fb6ee4bde15fe740ea4106d64a3a194') [ RunTime:0.0002s ]
+
+[ 2016-07-28T17:36:33+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T17:37:34+08:00 ] 60.215.182.197 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469698654','ba956434f71e52e36442fcc7c78c2da7') [ RunTime:0.0002s ]
+
+[ 2016-07-28T17:38:21+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469698701','89e169d2ffb4679a15fdb35f6edb0734') [ RunTime:0.0002s ]
+
+[ 2016-07-28T17:38:22+08:00 ] 219.130.47.51 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0004s ]
+SQL: SELECT 6378.137*acos(sin(4.9406564584125E-324)*sin(ps_x)*cos(4.9406564584125E-324-ps_y) + cos(4.9406564584125E-324)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0001s ]
+
+[ 2016-07-28T17:43:01+08:00 ] 183.60.163.114 /qzApi.php/Currency/checkPhone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-07-28T17:47:39+08:00 ] 60.215.182.197 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469699259','64455c650a7331d44a87944268861b32') [ RunTime:0.0002s ]
+
+[ 2016-07-28T22:56:59+08:00 ] 144.255.35.46 /qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '15700790563' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('20','1469717819','cbd269595a0f74f641cbf1c1c4204efb') [ RunTime:0.0002s ]
+
+[ 2016-07-28T22:56:59+08:00 ] 144.255.35.46 /qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0003s ]
+SQL: SELECT 6378.137*acos(sin(37.454692)*sin(ps_x)*cos(121.428528-ps_y) + cos(37.454692)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0005s ]
+

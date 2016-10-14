@@ -1,0 +1,454 @@
+[ 2016-09-06T13:30:45+08:00 ] ::1 /project/qzApi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T13:31:15+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T13:31:25+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T13:31:28+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T13:31:36+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T13:31:52+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T13:32:03+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T13:32:13+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T13:32:13+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T13:35:48+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T13:36:19+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T13:36:20+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T13:36:28+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T13:36:28+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T13:36:38+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T13:36:51+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for ServerAPI::getToken(), called in D:\WWW\project\Application\QzApi\Controller\BaseInfoController.class.php on line 19 and defined D:\WWW\project\ThinkPHP\Library\Vendor\rongyun\ServerAPI.php 第 42 行.
+NOTIC: [2] Missing argument 2 for ServerAPI::getToken(), called in D:\WWW\project\Application\QzApi\Controller\BaseInfoController.class.php on line 19 and defined D:\WWW\project\ThinkPHP\Library\Vendor\rongyun\ServerAPI.php 第 42 行.
+NOTIC: [2] Missing argument 3 for ServerAPI::getToken(), called in D:\WWW\project\Application\QzApi\Controller\BaseInfoController.class.php on line 19 and defined D:\WWW\project\ThinkPHP\Library\Vendor\rongyun\ServerAPI.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T13:44:30+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 2 for ServerAPI::getToken(), called in D:\WWW\project\Application\QzApi\Controller\BaseInfoController.class.php on line 19 and defined D:\WWW\project\ThinkPHP\Library\Vendor\rongyun\ServerAPI.php 第 42 行.
+NOTIC: [2] Missing argument 3 for ServerAPI::getToken(), called in D:\WWW\project\Application\QzApi\Controller\BaseInfoController.class.php on line 19 and defined D:\WWW\project\ThinkPHP\Library\Vendor\rongyun\ServerAPI.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T13:44:49+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for ServerAPI::getToken(), called in D:\WWW\project\Application\QzApi\Controller\BaseInfoController.class.php on line 19 and defined D:\WWW\project\ThinkPHP\Library\Vendor\rongyun\ServerAPI.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T13:45:20+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T13:45:45+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T14:08:05+08:00 ] ::1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T14:08:39+08:00 ] 127.0.0.1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T14:12:49+08:00 ] 127.0.0.1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T14:13:05+08:00 ] 127.0.0.1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T14:13:18+08:00 ] 127.0.0.1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\WWW\project\ThinkPHP\Library\Vendor\rongyun\ServerAPI.php 第 1443 行.
+
+[ 2016-09-06T14:13:29+08:00 ] 127.0.0.1 /project/qzapi.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T15:15:24+08:00 ] ::1 /project/qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-09-06T15:16:50+08:00 ] ::1 /project/qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-09-06T15:17:10+08:00 ] ::1 /project/qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '147258' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-06T15:17:51+08:00 ] ::1 /project/qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '68110' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0070s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qz_user` (`user_phone`,`user_name`,`user_sex`,`user_password`,`x`,`y`,`create_time`,`update_time`,`user_num`,`user_head_img`,`user_address`) VALUES ('18702783614','a蒜','1','fcea920f7412b5da7be0cf42b8c93759','22.5','113.1','1473146271','1473146271','100021','/Temp/2016-07-24/5794cdd0da516.jpg','广东省江门市江海区') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ry D:\WWW\project\Application\QzApi\Controller\UserInfoController.class.php 第 29 行.
+
+[ 2016-09-06T15:19:14+08:00 ] ::1 /project/qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-06T15:19:37+08:00 ] ::1 /project/qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '68110' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0080s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qz_user` (`user_phone`,`user_name`,`user_sex`,`user_password`,`x`,`y`,`create_time`,`update_time`,`user_num`,`user_head_img`,`user_address`) VALUES ('18702783614','a蒜','1','fcea920f7412b5da7be0cf42b8c93759','22.5','113.1','1473146376','1473146376','100022','/Temp/2016-07-24/5794cdd0da516.jpg','广东省江门市江海区') [ RunTime:0.0000s ]
+
+[ 2016-09-06T15:20:24+08:00 ] ::1 /project/qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '68110' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0060s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qz_user` (`user_phone`,`user_name`,`user_sex`,`user_password`,`x`,`y`,`create_time`,`update_time`,`user_num`,`user_head_img`,`user_address`) VALUES ('18702783614','a蒜','1','fcea920f7412b5da7be0cf42b8c93759','22.5','113.1','1473146424','1473146424','100023','/Temp/2016-07-24/5794cdd0da516.jpg','广东省江门市江海区') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0100s ]
+SQL: INSERT INTO `qz_u_ry` (`ry_id`,`ry_token`,`ry_create_time`,`ry_update_time`) VALUES ('1473146423_34','ZF6FNrgqQW4SqV0HTjwA7rGcibXfOeBOGIhyecRBGBz2DQMl0LMwTydPMYkHNoHEGBZ9DpWlw811huIIe7kaBaDebgVl8ZbZ','1473146423','1473146423') [ RunTime:0.0010s ]
+SQL: UPDATE `qz_verify` SET `status`='2' WHERE `phone` = '18702783614' AND `verify` = '68110' AND `status` = 1 [ RunTime:0.0000s ]
+
+[ 2016-09-06T15:21:29+08:00 ] ::1 /project/qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '68110' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0100s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `qz_user` (`user_phone`,`user_name`,`user_sex`,`user_password`,`x`,`y`,`create_time`,`update_time`,`user_num`,`user_head_img`,`user_address`) VALUES ('18702783614','a蒜','1','fcea920f7412b5da7be0cf42b8c93759','22.5','113.1','1473146488','1473146488','100024','/Temp/2016-07-24/5794cdd0da516.jpg','广东省江门市江海区') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.1520s ]
+SQL: INSERT INTO `qz_u_ry` (`user_id`,`ry_id`,`ry_token`,`ry_create_time`,`ry_update_time`) VALUES ('35','1473146487_35','GkYLagZ24EZrddn4gJD/X7GcibXfOeBOGIhyecRBGBz2DQMl0LMwT7F/IUNfifZrGBZ9DpWlw80ENLCfYOyxk0l/cbJOqFUG','1473146487','1473146487') [ RunTime:0.0000s ]
+SQL: UPDATE `qz_verify` SET `status`='2' WHERE `phone` = '18702783614' AND `verify` = '68110' AND `status` = 1 [ RunTime:0.0000s ]
+
+[ 2016-09-06T15:32:52+08:00 ] ::1 /project/qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-06T15:33:03+08:00 ] ::1 /project/qzApi.php/UserInfo/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' AND `user_password` = 'fcea920f7412b5da7be0cf42b8c93759' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\WWW\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `user_id` FROM `qz_user` WHERE `user_phone` = '18702783614' AND `user_password` = 'fcea920f7412b5da7be0cf42b8c93759' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0090s ]
+SQL: SELECT `ry_token` FROM `qz_u_ry` WHERE `user_id` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_token` [ RunTime:0.0060s ]
+SQL: INSERT INTO `qz_token` (`user_id`,`time`,`token`) VALUES ('35','1473147183','5d8ad8421c7be2653bc2a2e2440852d4') [ RunTime:0.0000s ]
+
+[ 2016-09-06T15:52:53+08:00 ] ::1 /project/qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0080s ]
+SQL: SELECT 6378.137*acos(sin(22.550918)*sin(ps_x)*cos(114.063812-ps_y) + cos(22.550918)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.vip_level AS vip_level,User.vip_year_auth AS vip_year_auth,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex,URy.ry_token AS identify FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id LEFT JOIN qz_u_ry URy ON User.user_id=URy.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0090s ]
+
+[ 2016-09-06T15:54:16+08:00 ] ::1 /project/qzApi.php/UserInfo/getNearbyUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `qz_location` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0070s ]
+SQL: SELECT 6378.137*acos(sin(22.550918)*sin(ps_x)*cos(114.063812-ps_y) + cos(22.550918)*cos(ps_x))*0.017453292519943 as distance,if(ps_x,1,0) as show_style,Location.update_time as active_time,User.user_id AS user_id,User.user_level AS user_level,User.vip_level AS vip_level,User.vip_year_auth AS vip_year_auth,User.user_num AS user_num,User.user_auth AS user_auth,User.tel_pre AS tel_pre,User.user_phone AS user_phone,User.user_name AS user_name,User.user_head_img AS user_head_img,User.user_birthday AS user_birthday,User.user_address AS user_address,User.user_sex AS user_sex,URy.ry_token AS identify FROM qz_user User LEFT JOIN qz_location Location ON User.user_id=Location.user_id LEFT JOIN qz_u_ry URy ON User.user_id=URy.user_id WHERE `user_status` = 1 ORDER BY show_style desc,distance asc,active_time asc LIMIT 0,8   [ RunTime:0.0010s ]
+
+[ 2016-09-06T15:57:51+08:00 ] ::1 /project/qzApi.php/UserInfo/getUserInfo/user_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0090s ]
+SQL: SELECT `user_id`,`user_level`,`vip_level`,`vip_year_auth`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0070s ]
+SQL: SELECT `ry_token` FROM `qz_u_ry` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-06T15:57:58+08:00 ] ::1 /project/qzApi.php/UserInfo/getUserInfo/user_id/34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0100s ]
+SQL: SELECT `user_id`,`user_level`,`vip_level`,`vip_year_auth`,`user_num`,`user_auth`,`tel_pre`,`user_phone`,`user_name`,`user_head_img`,`user_birthday`,`user_address`,`user_sex` FROM `qz_user` WHERE `user_id` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0090s ]
+SQL: SELECT `ry_token` FROM `qz_u_ry` WHERE `user_id` = 34 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-06T16:11:18+08:00 ] ::1 /project/qzApi.php/UserInfo/getIdentify/user_id/34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0100s ]
+SQL: SELECT `ry_token` FROM `qz_u_ry` WHERE `user_id` = 34 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-06T16:11:25+08:00 ] ::1 /project/qzApi.php/UserInfo/getIdentify/user_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_u_ry` [ RunTime:0.0090s ]
+SQL: SELECT `ry_token` FROM `qz_u_ry` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `qz_user` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qz_u_ry` (`user_id`,`ry_id`,`ry_token`,`ry_create_time`,`ry_update_time`) VALUES ('3','1473149484_3','hU0IcD3BhI2++KUH3sLfu7GcibXfOeBOGIhyecRBGBz2DQMl0LMwT5N+8r2dmsJxGBZ9DpWlw82Wwoffk4crSA4SmIrBNZpP','1473149484','1473149484') [ RunTime:0.0010s ]
+

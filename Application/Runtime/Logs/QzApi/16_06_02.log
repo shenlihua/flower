@@ -1,0 +1,20 @@
+[ 2016-06-02T00:00:10+08:00 ] 183.14.60.95 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783613' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783613' AND `verify` = '4589' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `thumb_img` FROM `qz_temp_image` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `qz_user` (`user_phone`,`user_name`,`user_birthday`,`user_address`,`user_sex`,`user_password`,`create_time`,`update_time`,`user_num`,`user_head_img`,`user_head_thumb_img`) VALUES ('18702783613','张三','1234567890','湖北洪湖','1','e10adc3949ba59abbe56e057f20f883e','1464796810','1464796810','100003','./Temp/2016-06-01/574eebfaa407f.jpg','./Temp/2016-06-01/thumb574eebfaa407f.jpg') [ RunTime:0.0002s ]
+SQL: UPDATE `qz_verify` SET `status`='2' WHERE `phone` = '18702783613' AND `verify` = '4589' AND `status` = 1 [ RunTime:0.0002s ]
+

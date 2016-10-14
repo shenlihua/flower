@@ -1,0 +1,43 @@
+[ 2016-06-20T19:55:42+08:00 ] 116.24.132.158 /qzApi.php/Currency/submailVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qz_verify` WHERE `status` = 1 AND `phone` = '18702783614' AND `create_time` > 1466421941 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `qz_verify` (`phone`,`verify`,`status`,`create_time`) VALUES ('18702783614','4731','1','1466423742') [ RunTime:0.0055s ]
+
+[ 2016-06-20T19:58:54+08:00 ] 116.24.134.150 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '2418' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-20T19:59:15+08:00 ] 116.24.134.150 /qzApi.php/UserInfo/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `qz_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `qz_user` WHERE `user_phone` = '18702783614' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qz_verify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qz_verify` WHERE `phone` = '18702783614' AND `verify` = '4731' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /www/web/qiuxx/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `user_id`,`user_num` FROM `qz_user` ORDER BY user_id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qz_temp_image` [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `qz_temp_image` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0056s ]
+SQL: INSERT INTO `qz_user` (`user_name`,`user_password`,`user_phone`,`user_birthday`,`user_address`,`user_sex`,`create_time`,`update_time`,`user_num`,`user_head_img`) VALUES ('测试','536f868c09cfbc81399401da424e42e6','18702783614','954892800','XXXXXXX','1','1466423955','1466423955','100007','./startImg/2016-05-28/57496406051de.jpg') [ RunTime:0.0002s ]
+SQL: UPDATE `qz_verify` SET `status`='2' WHERE `phone` = '18702783614' AND `verify` = '4731' AND `status` = 1 [ RunTime:0.0002s ]
+

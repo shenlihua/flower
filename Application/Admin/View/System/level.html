@@ -1,0 +1,98 @@
+<include file="Common/_meta"/>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 会员等级管理 <span class="c-gray en">&gt;</span> 会员等级列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+	<!--<div class="text-c"> 日期范围：
+		<input type="text" onfocus="WdatePicker({ maxDate:'#F{ $dp.$D( \'datemax\') || \'%y-%M-%d\' }' })" id="datemin" class="input-text Wdate" style="width:120px;">
+		-
+		<input type="text" onfocus="WdatePicker({ minDate:'#F{ $dp.$D( \'datemin\' ) }',maxDate:'%y-%M-%d' })" id="datemax" class="input-text Wdate" style="width:120px;">
+		<input type="text" class="input-text" style="width:250px" placeholder="输入会员名称、电话、邮箱" id="" name="">
+		<button type="submit" class="btn btn-success radius" id="" name=""><i class="Hui-iconfont">&#xe665;</i> 搜用户</button>
+	</div>-->
+	<div class="cl pd-5 bg-1 bk-gray mt-20">
+		<span class="l">
+			<!--<a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a>-->
+			<a href="{: U('levelAdd')}" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加会员等级</a>
+		</span>
+	</div>
+	<div class="mt-20 dataTables_wrapper no-footer">
+	<table class="table table-border table-bordered table-hover table-bg table-sort" id="layer-photos">
+		<thead>
+			<tr class="text-c">
+				<th width="80">序号</th>
+				<th width="200">等级名称</th>
+				<th width="40">在线时长</th>
+				<th width="90">状态</th>
+				<th width="100">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		<volist name="list" id="vo">
+			<tr class="text-c">
+				<td>{$i}</td>
+				<td>{$vo['level_name']}</td>
+				<td>{$vo['level_time']}</td>
+				<td>{: $status[$vo['status']]}</td>
+                <if condition="$vo['default']">
+				<td class="td-manage">
+					<a style="text-decoration:none" onClick="member_stop(this,{$vo['level_id']})" href="javascript:;" title="停用">{: $vo['status']==1?'停用':'启用'}</a>
+					<a style="text-decoration:none" href="{: U('levelAdd',array('id'=>$vo['level_id']))}" title="停用">编辑</a>
+					<a title="删除" href="javascript:;" onclick="member_del(this,{$vo['level_id']})" class="ml-5" style="text-decoration:none">删除</a>
+				</td>
+                <else/>
+                    <td></td>
+                </if>
+			</tr>
+		</volist>
+		</tbody>
+	</table>
+		{$page}
+	</div>
+
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/layer/2.1/layer.js"></script>
+<script type="text/javascript">
+$(function(){
+	layer.config({
+		extend: 'extend/layer.ext.js'
+	})
+	//调用示例
+	layer.ready(function(){ //为了layer.ext.js加载完毕再执行
+		layer.photos({
+			photos: '#layer-photos'
+		});
+	});
+
+});
+
+/*用户-停用*/
+function member_stop(obj,id){
+	var content=$(obj).text();
+	var str=content=='停用'?'启用':'停用';
+	layer.confirm('确认要'+content+'吗？',function(index){
+		$.get("{: U('levelStatus')}",{id:id},function(result){
+			layer.msg(result['msg']);
+			if(result['code']){
+				$(obj).text(str);
+				$(obj).parent().prev().text(content);
+			}
+		});
+
+	});
+}
+
+
+/*用户-删除*/
+function member_del(obj,id){
+	layer.confirm('确认要删除吗？',function(index){
+		$.get("{: U('delLevel')}",{id:id},function(result){
+			layer.msg(result['msg']);
+			if(result['code']){
+				$(obj).parents("tr").remove();
+			}
+		});
+
+	});
+}
+</script> 
+</body>
+</html>
