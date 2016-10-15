@@ -1,0 +1,117 @@
+<include file="Common/header"/>
+	
+	<div class="shopping-cart">
+		<div class="action">
+			<a id="edit">编辑</a>
+		</div>
+		<ul class="shopList">
+			<volist name="cart" id="vo">
+				<li class="clearfix">
+					<label class="checkbox3"><input type="checkbox" name="shopping" value="{$vo['cart_id']}"></label>
+					<div class="image">
+						<img src="__PUBLIC__/../{$vo['image_thumb_low']}" width="100%">
+					</div>
+					<div class="content">
+						<h2>{$vo['goods_name']}</h2>
+						<div class="price">￥{$vo['goods_price']}</div>
+						<div class="disc">会员折扣价：￥{$vo['goods_price']}</div>
+					</div>
+					<div class="number-box">
+						<div class="numBox fr">
+							<span class="minus"></span>
+							<input type="text" class="num" value="{$vo['cart_num']}" readonly />
+							<span class="plus"></span>
+						</div>
+					</div>
+				</li>
+				<php>$total+=$vo['goods_price']*$vo['cart_num'];</php>
+			</volist>
+
+		</ul>
+		
+		<div class="fixed-ft">
+			<label class="checkbox3"><input type="checkbox" name="shoppingAll" id="shoppingAll"> 全选</label>
+			<div class="countAction" id="count">
+				<div class="price">合计：<span>￥{$total}</span></div>
+				<button class="btn btn-primary" onclick="window.location.href='{: U('Goods/waitPay')}'">去结算</button>
+			</div>
+			<div class="countAction hide" id="action">
+				<button class="btn btn-danger">删除</button>
+				<button class="btn btn-primary">完成</button>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	// 数量减少
+	$(".numBox .minus").click(function(){
+		var cart_id=$(this).parent().parent().parent().find("input[name='shopping']").val();
+		var val = parseInt($(this).next("input").val());
+		if(val <= 1) return;
+		$(this).next("input").val(val-1);
+		$.post("{: U('numCart')}",{id:cart_id,status:1});
+	});
+	// 数量增加
+	$(".numBox .plus").click(function(){
+		var cart_id=$(this).parent().parent().parent().find("input[name='shopping']").val();
+		var val = parseInt($(this).prev("input").val());
+		$(this).prev("input").val(val+1);
+		$.post("{: U('numCart')}",{id:cart_id});
+	});
+	
+	// 编辑
+	$("#edit").click(function(){
+		$(this).parent().slideUp();
+		$("#count").hide();
+		$("#action").show();
+	});
+	// 完成
+	$("#action .btn-primary").click(function(){
+		$("#action").hide();
+		$("#edit").parent().slideDown();
+		$("#count").show();
+	});
+	// 删除
+	$("#action .btn-danger").click(function(){
+		if(confirm("确定删除吗?")){
+			var arr=[];
+			$(".shopList li").find("input[name='shopping']:checked").each(function(){
+				arr.push($(this).val())
+			});
+			if(arr){
+				$.post("{: U('Goods/delCart')}",{'id[]':arr},function(result){
+					if(result['code']){
+						for(var i=0;i<arr.length;i++) {
+							$(".shopList li").find("input[value='"+arr[i]+"']").parent().parent().remove();
+						}
+					}else{
+						alert(result['msg']);
+					}
+				});
+			}else{
+				alert("您没有要删除的商品!");
+			}
+
+		}
+	});
+	// 全选
+	$("#shoppingAll").click(function(){
+		if(this.checked){
+			$(".shopList li").find("input[name='shopping']").prop("checked",true);
+		}else{
+			$(".shopList li").find("input[name='shopping']").prop("checked",false);
+		}
+	});
+	$(".shopList li input[name='shopping']").click(function(){
+		if($(".shopList input[name='shopping']").length != $(".shopList input[name='shopping']:checked").length){
+			$("#shoppingAll").prop("checked",false);
+		}else{
+			$("#shoppingAll").prop("checked",true);
+		}
+	});
+});
+</script>

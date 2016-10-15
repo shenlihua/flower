@@ -1,0 +1,39 @@
+<include file="Common/header"/>
+<div class="wrap-index">
+
+	<div class="swiper-container mg-10">
+		<div class="swiper-wrapper">
+			<volist name="image" id="im">
+				<div class="swiper-slide"><img src="http://{: C('UPLOAD_TYPE_CONFIG.domain').$im['img']}" width="100%" /></div>
+			</volist>
+		    </div>
+		    <div class="swiper-pagination"></div>
+		</div>
+		<div class="index-menu clearfix">
+			<div class="left">
+				<img src="__PUBLIC__/Wechat/images/reservationService.png" width="100%" onclick="window.location.href='{: U('Service/index')}'"/>
+				<img src="__PUBLIC__/Wechat/images/shopping.png" width="100%"  onclick="window.location.href='{: U('Goods/index')}'"/>
+			</div>
+			<div class="right">
+				<img src="__PUBLIC__/Wechat/images/latstActivities.png" width="100%"  onclick="window.location.href='{: U('Activity/indexx')}'" />
+				<img src="__PUBLIC__/Wechat/images/aboutStore.png" width="100%"  onclick="window.location.href='{: U('Index/about')}'" />
+				<img src="__PUBLIC__/Wechat/images/personalCenter.png" width="100%"  onclick="window.location.href='{: U('Center/index')}'" />
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>
+
+<script type="text/javascript" src="__PUBLIC__/Wechat/js/swiper-3.2.7.min.js" ></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var mySwiper = new Swiper ('.swiper-container', {
+		autoplay: 3000,
+	    loop: true,
+	    pagination: '.swiper-pagination',
+	    paginationClickable: true
+	});
+});
+</script>

@@ -1,0 +1,51 @@
+<include file="Common/header"/>
+	<ul class="addressList">
+		<li>
+			<label class="radio">
+				<input type="radio" name="address" checked="checked" />
+				<div class="phone">13800138123</div>
+				<div class="name">张三</div>
+				<div class="con">广东省深圳市龙岗区雅园路万家灯火五期A栋23D五期A栋23D</div>
+			</label>
+			<div class="delAddress"><i class="icon-del"></i></div>
+		</li>
+		<li>
+			<label class="radio">
+				<input type="radio" name="address" />
+				<div class="phone">13800138123</div>
+				<div class="name">张三</div>
+				<div class="con">广东省深圳市龙岗区雅园路万家灯火五期A栋23D五期A栋23D</div>
+			</label>
+			<div class="delAddress"><i class="icon-del"></i></div>
+		</li>
+		<li>
+			<label class="radio">
+				<input type="radio" name="address" />
+				<div class="phone">13800138123</div>
+				<div class="name">张三</div>
+				<div class="con">广东省深圳市龙岗区雅园路万家灯火五期A栋23D五期A栋23D</div>
+			</label>
+			<div class="delAddress"><i class="icon-del"></i></div>
+		</li>
+	</ul>
+	
+	<div class="newAddress">
+		<a href="{: U('Center/addAddress')}" class="btn btn-address"><i class="icon-add"></i>新建地址</a>
+	</div>
+	
+	<div class="mg-50">
+		<button class="btn btn-primary">确定</button>
+	</div>
+	
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".addressList").on("click",".delAddress",function(){
+		if(confirm("确定删除吗？")){
+			$(this).parent().remove();
+		}
+	});
+});
+</script>

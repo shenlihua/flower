@@ -1,0 +1,58 @@
+<include file="Common/header"/>
+	<div class="reg-box">
+		<div class="item">
+			<input type="text" name="phone" placeholder="手机号" class="text" value=""  />
+		</div>
+		<div class="item">
+			<input type="text" name="verify" placeholder="请输入验证码" class="text" />
+			<button class="verBtn"  id="verify" type="button">获取验证码</button>
+		</div>
+		<button class="btn btn-primary" id="submit">确定</button>
+	</div>
+	
+</body>
+</html>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#verify").click(function(e){
+			var tel=$("input[name='phone']").val();
+			var reg=/^\d{11}$/;
+			if(reg.test(tel)){
+				$.post("{: U('Info/getVerify')}",{phone:tel,status:1},function(result){
+					alert(result['msg']);
+					if(result['code']==1){
+						var t = 60;
+						var $this = $("#verify");
+						$this.attr('disabled',"true").css("background","#999").text("获取验证码"+t);
+						var time = setInterval(function(){
+							$this.text("获取验证码"+--t);
+							if(t == 0){
+								clearTimeout(time);
+								$this.removeAttr("disabled").removeAttr("style").removeClass("disabled").text("获取验证码");
+							}
+						},1000);
+					}
+				});
+			}else{
+				alert('请输入正确的手机号码')
+				$("input[name='phone']").val('');
+			};
+		});
+
+		/*表单请求信息*/
+		$("#submit").click(function(){
+			var tel=$("input[name='phone']").val();
+			var ver=$("input[name='verify']").val();
+			if(!tel){
+				alert("请输入手机号码!");
+			}else if(!ver){
+				alert("请输入验证码!");
+			}else{
+				$.post("{: U('Info/bindPhone')}",{phone:tel,verify:ver},function(result){
+					alert(result['msg'])
+				});
+			}
+
+		});
+	});
+</script>

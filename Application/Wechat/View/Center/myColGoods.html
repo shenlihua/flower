@@ -1,0 +1,20 @@
+<include file="Common/header"/>
+	<ul class="tpList tpList2">
+		<volist name="list" id="vo">
+			<li>
+				<div class="image">
+					<a  href="{: U('Goods/details',array('goods_id'=>$vo['goods_id']))}"><img src="__PUBLIC__/../{$vo['image_thumb_low']}" width="100%"></a>
+				</div>
+				<div class="content">
+					<h2><a  href="{: U('Goods/details',array('goods_id'=>$vo['goods_id']))}">{$vo['goods_name']}</a></h2>
+					<div class="sales"></div>
+					<div class="price">￥{$vo['goods_price']}</div>
+					<div class="disc">会员折扣价：￥{$vo['goods_price']}</div>
+				</div>
+			</li>
+		</volist>
+
+	</ul>
+	
+</body>
+</html>

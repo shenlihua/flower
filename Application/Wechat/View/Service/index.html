@@ -1,0 +1,184 @@
+<include file="Common/header"/>
+	
+	<div class="search-top">
+        <form action="{: U('')}" method="get">
+            <div class="search">
+                <input type="text" class="search-input" name="keyword" placeholder="搜索" />
+                <button class="search-btn"></button>
+            </div>
+        </form>
+		<a href="{:U('Index/index')}" class="link-home"></a>
+	</div>
+	
+	<div class="tabs">
+		<span class="wd80 active">服务列表</span>
+		<!--<span class="wd40">好评</span>
+		<span class="wd20" id="screen">筛选<i class="icon-liquid"></i></span>-->
+	</div>
+	
+	<ul class="serverList">
+
+        <volist name="list" id="vo">
+            <li>
+                <a href="{: U('details',array('id'=>$vo['server_id']))}">
+                <div class="tag-s">服务</div>
+                <div class="image">
+                    <img src="__PUBLIC__/../{$vo['server_thumb']}" width="100%">
+                </div>
+                <div class="content">
+                    <h2>{$vo['server_name']}</h2>
+                    <div class="type">
+                        <div class="door clearfix">
+                            <div class="tit">价格</div>
+                            <div class="price">￥{$vo['server_price']}</div>
+                        </div>
+                        <!--<div class="store clearfix">
+                            <div class="tit">到店</div>
+                            <div class="price">￥5000.00</div>
+                        </div>-->
+                    </div>
+                    <div class="time">千艺花卉</div>
+                </div>
+            </li>
+        </volist>
+
+		<li class="noMore">没有更多了</li>
+	</ul>
+
+	<!-- 筛选 -->
+	<!--<div class="rightScroll hide">
+		<div class="scrollBox" id="scrollBox">
+			<div class="title">
+				<button class="scroll_close" id="scroll_close">取消</button>
+				<button class="scroll_confr" id="scroll_confr">确定</button>
+				<span>筛选</span>
+			</div>
+			<div class="screenTabs">
+				<span>上门服务</span>
+				<span class="active">到店服务</span>
+			</div>
+			<div class="screenPrice">
+				<span class="mr-20">价格</span>
+				<input type="text" class="p-text" />　一　<input type="text" class="p-text" />
+			</div>
+			<div class="sortPrice">
+                <div class="tit">价格排序</div>
+                <div class="con">
+                	<label class="radio3">
+	                	从小到大 <input type="radio" name="price_sort" value="price_asc">
+	                </label>
+	                <label class="radio3">
+	                	从大到小 <input type="radio" name="price_sort" value="price_desc">
+	                </label>
+                </div>
+            </div>
+			<div class="scrollClass">
+				<a class="alink bor-bt">服务时长 <input type="text" readonly="readonly" value="全部"></a>
+				<a class="alink bor-bt">服务类型 <input type="text" readonly="readonly" value="全部"></a>
+			</div>
+			<button class="scrollBtn">清除选项</button>
+		</div>
+		<div class="screen">
+			&lt;!&ndash; 服务时长 &ndash;&gt;
+			<div class="scrollBox hide">
+				<div class="title">
+					<button class="scroll_close screen_close">取消</button>
+					<button class="scroll_confr screen_confr">确定</button>
+					<span>服务时长</span>
+				</div>
+				<ul class="screenList">
+					<li>30分钟以下</li>
+					<li>30至60分钟</li>
+					<li>60至90分钟</li>
+					<li>90至120分钟</li>
+					<li>120分钟以上</li>
+				</ul>
+			</div>
+			&lt;!&ndash; 服务类型 &ndash;&gt;
+			<div class="scrollBox hide">
+				<div class="title">
+					<button class="scroll_close screen_close">取消</button>
+					<button class="scroll_confr screen_confr">确定</button>
+					<span>服务类型</span>
+				</div>
+				<ul class="screenList">
+					<li>全部</li>
+					<li>补水</li>
+					<li>面膜</li>
+					<li>精油推背</li>
+				</ul>
+			</div>
+		</div>
+	</div>-->
+	
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	// 搜索
+	$(".search .placeholder").click(function(){
+		$(".search input").focus();
+	});
+	$(".search input").focus(function(){
+		$(".search .placeholder").hide();
+	}).blur(function(){
+		if($(this).val() == "") $(".search .placeholder").show();
+	});
+	
+	// 弹出筛选
+	$("#screen").click(function(){
+		$(".rightScroll").show();
+		$("#scrollBox").css("right","-100%").animate({"right":0},500);
+	});
+	// 筛选-确定
+	$("#scroll_confr").click(function(){
+		$("#scrollBox").css("right",0).animate({"right":"-100%"},500,function(){
+			$(".rightScroll").hide();
+		});
+	});
+	// 关闭筛选
+	$("#scroll_close").click(function(){
+		$("#scrollBox").css("right",0).animate({"right":"-100%"},500,function(){
+			$(".rightScroll").hide();
+		});
+	});
+	// 清除选项
+	$(".scrollBtn").click(function(){
+		$(".screenTabs").find("span").removeClass("active");
+		$(".scrollClass").find("input").val("全部");
+		$(".screenPrice").find("input").val("");
+	});
+	
+	// 筛选选项卡
+	$(".screenTabs span").click(function(){
+		$(this).addClass("active").siblings().removeClass("active");
+	});
+	
+	// 筛选条件选择状态
+	$(".screenList li").click(function(){
+		$(this).addClass("active").siblings().removeClass("active");
+	});
+	// 弹出筛选多种条件窗口
+	$(".scrollClass a").click(function(){
+		var index = $(this).index();
+		var val = $(this).find("input").val();
+		$(".screen .scrollBox").eq(index).show().css("right","-100%").animate({"right":0},500);
+		$(".screen .scrollBox").eq(index).find(".screenList li").removeClass("active").each(function(){
+			if($(this).html() == val) $(this).addClass("active");
+		});
+	});
+	// 筛选条件 - 确定
+	$(".screen_confr").click(function(){
+		var $this = $(this).parent();
+		var val = $this.next(".screenList").find("li.active").html();
+		$(".scrollClass a").eq($this.parent().index()).find("input").val(val);
+		$this.parent().css("right",0).animate({"right":"-100%"},500,function(){ $(this).hide(); });
+	});
+	// 筛选条件 - 取消
+	$(".screen_close").click(function(){
+		$(this).parent().parent().css("right",0).animate({"right":"-100%"},500,function(){ $(this).hide(); });
+	});
+	
+});
+</script>

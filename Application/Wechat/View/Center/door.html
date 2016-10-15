@@ -1,0 +1,110 @@
+<include file="Common/header"/>
+	<div class="reminder">
+		<div class="title">温馨提示</div>
+		<div class="note">
+			<p>1.提前一小时以上取消订单，不收取任何违约金</p>
+			<p>2.提前一小时以内取消订单，收取订单金额的20%</p>
+			<p>3.技师出发前会与您确认，确认后订单无法取消</p>
+		</div>
+	</div>
+	
+	<div class="order-tips">
+		您好，您的专属技师已出发，请稍候
+	</div>
+	
+	<div class="orderInfo-box mt-0">
+		<div class="door">上门</div>
+		<div class="tag-t">套餐</div>
+		<div class="row">
+			<div class="tit">订单编号：</div>
+			<div class="con">AK7474747474</div>
+		</div>
+		<div class="row">
+			<div class="tit">客户姓名：</div>
+			<div class="con">张三</div>
+		</div>
+		<div class="row">
+			<div class="tit">手机号码：</div>
+			<div class="con">15815815888</div>
+		</div>
+		<div class="row">
+			<div class="tit">服务地址：</div>
+			<div class="con">深圳市福田区沙嘴路金地工业区127栋2楼</div>
+		</div>
+		<div class="row">
+			<div class="tit">套餐项目：</div>
+			<div class="con">面部套餐</div>
+		</div>
+		<div class="row">
+			<div class="tit">包含项目：</div>
+			<div class="con">
+				<p>精油推背</p>
+				<p>精油洗脸</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="tit">服务时间：</div>
+			<div class="con">2015-11-11  11:00</div>
+		</div>
+		<div class="row">
+			<div class="tit">原　　价：</div>
+			<div class="con">￥5000.00</div>
+		</div>
+		<div class="row">
+			<div class="tit five">会员折扣价：</div>
+			<div class="con">￥4800.00（9折）</div>
+		</div>
+		
+		<hr class="hr" />
+		
+		<div class="row pe">
+			<div class="tit">总　　计：</div>
+			<div class="con"><span class="c-red">￥4800.00</span></div>
+		</div>
+		<div class="row">
+			<div class="tit">使用余额：</div>
+			<div class="con">￥1000.00</div>
+		</div>
+		<div class="row">
+			<div class="tit">微信支付：</div>
+			<div class="con">￥3800.00</div>
+		</div>
+	</div>
+
+	<div class="pop-cancel hide">
+		<div class="box">
+			<div class="title">温馨提示</div>
+			<div class="con">
+				如果您在开始前1小时内申请退款，仅能退款80%，且退款至会员卡上，请问是否继续退款？
+			</div>
+			<div class="btn-box">
+				<button class="confri c-blue">确定</button>
+				<button class="cancel">取消</button>
+			</div>
+		</div>
+	</div>
+	
+	<div class="fixed-ft">
+		<button class="btn btn-white1" id="cancelOrder">取消订单</button>
+	</div>
+	
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	// 取消订单按钮
+	$("#cancelOrder").click(function(){
+		$(".pop-cancel").show();
+	});
+	// 确定
+	$(".pop-cancel .confri").click(function(){
+		alert("确定取消");
+		$(".pop-cancel").hide()
+	});
+	// 取消
+	$(".pop-cancel .cancel").click(function(){
+		$(".pop-cancel").hide()
+	});
+});
+</script>

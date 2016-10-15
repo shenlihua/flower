@@ -1,0 +1,50 @@
+<include file="Common/header"/>
+    <form id="form">
+        <div class="serverAds">
+            <div class="item">
+                <div class="tit">姓名</div>
+                <div class="con"><input type="text" class="text" name="expand_name"></div>
+            </div>
+            <div class="item">
+                <div class="tit">联系电话</div>
+                <div class="con"><input type="text" class="text" name="expand_phone"></div>
+            </div>
+            <div class="item">
+                <div class="tit">服务时间</div>
+                <div class="con"><input type="datetime-local" class="text" name="expand_server_time"></div>
+            </div>
+            <div class="item">
+                <div class="tit">详细地址</div>
+                <div class="con">
+                    <textarea class="tarea" name="expand_addr"></textarea>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="tit">附加内容</div>
+                <div class="con">
+                    <textarea class="tarea"  name="expand_content"></textarea>
+                </div>
+            </div>
+
+            <div class="btn-box">
+                <input type="hidden" name="openid" value="{: cookie('openid')}">
+                <input type="hidden" name="server_id" value="{: $_GET['id']}">
+                <button class="btn btn-primary" type="button" id="submit">保存</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+<script type="text/javascript">
+    $(function(){
+        $("#submit").click(function(){
+            $.post("{: U('appointmentAction')}",$("#form").serialize(),function(result){
+                alert(result['msg']);
+                if(result['code']){
+                    window.location.href=" {: U('index')}";
+                }
+            });
+        });
+    });
+</script>

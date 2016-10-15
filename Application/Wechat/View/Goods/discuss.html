@@ -1,0 +1,29 @@
+<include file="Common/header"/>
+	
+	<div class="goodsDetail" style="padding-bottom:1rem">
+		
+		<div class="goodsInfo">
+			<div class="title">评价</div>
+			<ul class="commentList">
+				<if condition="$info">
+					<volist name="info" id="vo">
+						<li>
+							<div class="eva">{$vo['discuss_level']|str_repeat='<i class="icon-star"></i>',###}</div>
+							<div class="name">{$vo['nickname']}</div>
+							<div class="content">
+								{$vo['discuss_content']}
+							</div>
+							<div class="time">{$vo['discuss_time']|date='Y-m-d',###}</div>
+						</li>
+					</volist>
+				<else/>
+					<li style="text-align:center">暂无评论</li>
+				</if>
+			</ul>
+			<!--<a href="#" class="recommBtn">查看全部 <span> > </span></a>-->
+		</div>
+		
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,179 @@
+<include file="Common/header"/>
+	
+	<div class="search-top">
+		<form action="{: U('')}" method="get">
+			<div class="search">
+				<input type="text" name="goods_name" class="search-input" placeholder="搜索" />
+				<button class="search-btn"></button>
+			</div>
+		</form>
+		<a href="{: U('Index/index')}" class="link-home"></a>
+	</div>
+	
+	<div class="tabs">
+		<span class="wd40 active">热门</span>
+		<span class="wd40">销量</span>
+		<span class="wd20" id="screen">筛选<i class="icon-liquid"></i></span>
+	</div>
+
+	<ul class="tpList tpList2">
+		<volist name="list" id="vo">
+			<li>
+				<div class="image">
+					<a href="{: U('Goods/details',array('goods_id'=>$vo['goods_id']))}"><img src="__PUBLIC__/../{$vo['image_thumb_low']}" width="100%"></a>
+				</div>
+				<div class="content">
+					<h2><a href="{: U('Goods/details',array('goods_id'=>$vo['goods_id']))}">{$vo['goods_name']}</a></h2>
+					<div class="sales">销量：1000　　收藏：554</div>
+					<div class="price">￥{$vo['goods_price']}</div>
+					<div class="disc">会员折扣价：￥{$vo['goods_price']}</div>
+				</div>
+			</li>
+		</volist>
+
+		<li class="noMore" id="loads" field="1" p="1">加载更多</li>
+	</ul>
+
+	<!-- 筛选 -->
+	<div class="rightScroll hide">
+		<form action="{: U('')}" method="get">
+			<div class="scrollBox" id="scrollBox">
+				<div class="title">
+					<button class="scroll_close" id="scroll_close" type="button">取消</button>
+					<button class="scroll_confr" id="scroll_confr" type="submit">确定</button>
+					<span>筛选</span>
+				</div>
+				<div class="screenPrice mt-20">
+					<span class="mr-20">价格</span>
+					<input type="text" class="p-text" name="start"/>　一　<input type="text" class="p-text" name="end"/>
+				</div>
+				<div class="sortPrice">
+					<div class="tit">价格排序</div>
+					<div class="con">
+						<label class="radio3">
+							从小到大 <input type="radio" name="price_sort" value="asc">
+						</label>
+						<label class="radio3">
+							从大到小 <input type="radio" name="price_sort" value="desc">
+						</label>
+					</div>
+				</div>
+				<div class="scrollClass">
+					<a class="alink bor-bt">商品类型
+						<input type="text" readonly="readonly" value="全部">
+						<input type="hidden" name="cate" id="cate" value="">
+					</a>
+				</div>
+				<button class="scrollBtn">清除选项</button>
+			</div>
+			<div class="screen">
+				<!-- 商品类型 -->
+				<div class="scrollBox hide">
+					<div class="title">
+						<button class="scroll_close screen_close" type="button">取消</button>
+						<button class="scroll_confr screen_confr" type="button">确定</button>
+						<span>商品类型</span>
+					</div>
+					<ul class="screenList">
+						<li>全部</li>
+						<volist name="cates" id="ca">
+						<li field="{$key}">{$ca}</li>
+						</volist>
+					</ul>
+				</div>
+			</div>
+		</form>
+	</div>
+	
+</body>
+</html>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+	// 搜索
+	$(".search .placeholder").click(function(){
+		$(".search input").focus();
+	});
+	$(".search input").focus(function(){
+		$(".search .placeholder").hide();
+	}).blur(function(){
+		if($(this).val() == "") $(".search .placeholder").show();
+	});
+	
+	// 弹出筛选
+	$("#screen").click(function(){
+		$(".rightScroll").show();
+		$("#scrollBox").css("right","-100%").animate({"right":0},500);
+	});
+	// 筛选-确定
+	$("#scroll_confr").click(function(){
+		$("#scrollBox").css("right",0).animate({"right":"-100%"},500,function(){
+			$(".rightScroll").hide();
+		});
+	});
+	// 关闭筛选
+	$("#scroll_close").click(function(){
+		$("#scrollBox").css("right",0).animate({"right":"-100%"},500,function(){
+			$(".rightScroll").hide();
+		});
+	});
+	// 清除选项
+	$(".scrollBtn").click(function(){
+		$(".screenTabs").find("span").removeClass("active");
+		$(".scrollClass").find("input").val("全部");
+		$(".screenPrice").find("input").val("");
+		$("#cate_id").val("");
+	});
+	
+	// 筛选选项卡
+	$(".screenTabs span").click(function(){
+		$(this).addClass("active").siblings().removeClass("active");
+	});
+	
+	// 筛选条件选择状态
+	$(".screenList li").click(function(){
+		$(this).addClass("active").siblings().removeClass("active");
+	});
+	// 弹出筛选多种条件窗口
+	$(".scrollClass a").click(function(){
+		var index = $(this).index();
+		var val = $(this).find("input").val();
+		$(".screen .scrollBox").eq(index).show().css("right","-100%").animate({"right":0},500);
+		$(".screen .scrollBox").eq(index).find(".screenList li").removeClass("active").each(function(){
+			if($(this).html() == val) $(this).addClass("active");
+		});
+	});
+	// 筛选条件 - 确定
+	$(".screen_confr").click(function(){
+		var $this = $(this).parent();
+		var val = $this.next(".screenList").find("li.active").html();
+		var cate_id=$this.next(".screenList").find("li.active").attr('field');
+		$(".scrollClass a").eq($this.parent().index()).find("input").val(val);
+		$(".scrollClass a").eq($this.parent().index()).find("#cate").val(cate_id);
+		$this.parent().css("right",0).animate({"right":"-100%"},500,function(){ $(this).hide(); });
+	});
+	// 筛选条件 - 取消
+	$(".screen_close").click(function(){
+		$(this).parent().parent().css("right",0).animate({"right":"-100%"},500,function(){ $(this).hide(); });
+	});
+
+	/*加载更多*/
+	$("#loads").click(function(){
+		var point=$(this);
+		var count={$count};
+		var href=window.location.href;
+		var p=parseInt(point.attr('p'));
+		if(count>p){
+			$.get(href,{page:p},function(result){
+				/*页数增加一*/
+				point.attr('p',p+1);
+				$(result).insertBefore(point);
+			});
+		}else{
+			var str="暂无更多内容"
+			point.text(str);
+		}
+	});
+});
+</script>

@@ -1,0 +1,51 @@
+<include file="Common/header"/>
+	<div class="serverDetail">
+		<div class="serverContent">
+			<div class="image">
+				<img src="__PUBLIC__/../{$info['server_thumb']}" width="100%">
+			</div>
+			<div class="content">
+				<h2>{$info['server_name']}</h2>
+				<div class="time">千艺花卉</div>
+				<div class="price">￥{$info['server_price']}</div>
+			</div>
+		</div>
+		<div class="serverCon pd">
+			<div class="serverTab">
+				<span class="active">服务内容</span>
+				<span>服务简介</span>
+				<span>下单须知</span>
+			</div>
+			
+			<div class="tabsCon">
+				<div class="item-tab">
+					{$info['server_content']}
+				</div>
+				<div class="item-tab hide">
+                    {$info['server_introduction']}
+				</div>
+				<div class="item-tab hide">
+					{: W('Tip/content')}
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<div class="fixed-ft">
+    <a href="{: U('appointment',array('id'=>$info['server_id']))}" class="btn btn-primary">立即预约</a>
+</div>
+
+
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	// 服务详情选项卡切换
+	$(".serverTab span").click(function(e){
+		$(this).addClass("active").siblings().removeClass("active");
+		$(".tabsCon .item-tab").hide().eq($(this).index()).show();
+	});
+});
+</script>

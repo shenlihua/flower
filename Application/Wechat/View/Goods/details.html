@@ -1,0 +1,72 @@
+<include file="Common/header"/>
+
+	<div class="goodsDetail">
+		<div class="goodsSlide">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<volist name="info['images']" id="im">
+			        	<div class="swiper-slide"><img src="__PUBLIC__/../{$im['image_url']}" width="100%" /></div>
+					</volist>
+			    </div>
+			    <div class="swiper-pagination"></div>
+			</div>
+
+			<div class="goodsName">
+				{$info['goods_name']}
+			</div>
+			<div class="sales">销量：1000　　收藏：554</div>
+			<div class="goodsPrice">
+				<em>￥</em>{$info['goods_price']}
+				<div class="coll" id="coll" field="{$info['goods_id']}"><i class="icon-coll"></i></div>
+			</div>
+			<div class="disc">
+				会员折扣价：￥{$info['goods_price']}
+			</div>
+		</div>
+
+		<a href="{: U('Goods/introduction',array('goods_id'=>$info['goods_id']))}" class="alink-eva mt-10"><span>简介</span></a>
+		<a href="{: U('Goods/graph',array('goods_id'=>$info['goods_id']))}" class="alink-eva mt-10"><span>图片介绍</span></a>
+
+		<a href="{: U('Goods/discuss',array('goods_id'=>$info['goods_id']))}" class="alink-eva mt-10">
+			<span>所有评价（{: $info['sum_level']?round($info['sum_level']/$info['count'],1):0}分）</span>
+			<div class="numEva">{: $info['count']?$info['count']:0}人评价</div>
+		</a>
+
+		<div class="fixed-ft shopping-ft">
+			<a class="cart" href="{: U('Goods/cart')}"></a>
+			<button class="btn btn-primary shopping-btn" id="addCart" field="{$info['goods_id']}">加入购物车</button>
+		</div>
+	</div>
+
+</body>
+</html>
+
+<link rel="stylesheet" href="__PUBLIC__/Wechat/css/swiper.css" />
+<script type="text/javascript" src="__PUBLIC__/Wechat/js/swiper-3.2.7.min.js" ></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var mySwiper = new Swiper ('.swiper-container', {
+		autoplay: 3000,
+	    loop: true,
+	    pagination: '.swiper-pagination',
+	    paginationClickable: true
+	});
+
+	$("#coll").click(function(){
+		var point=$(this);
+		var goods_id=point.attr('field');
+		$.get('{: U("collGoods")}',{id:goods_id},function(result){
+			alert(result['msg']);
+		});
+	});
+
+	/*加入购物车*/
+	$("#addCart").click(function(){
+		var point=$(this);
+		var goods_id=point.attr('field');
+		$.get('{: U("cartAdd")}',{id:goods_id},function(result){
+			alert(result['msg']);
+		});
+	});
+});
+</script>
