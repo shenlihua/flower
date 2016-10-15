@@ -87,34 +87,11 @@
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>商品图片：</label>
             <div class="formControls col-xs-5 col-sm-5">
-                <!--dom结构部分-->
-                <div id="uploader" class="wu-example">
-                    <div class="queueList">
-                        <div id="dndArea" class="placeholder">
-                            <div id="filePicker" style="float:none;"></div>
-                            <p>或将照片拖到这里，单次最多可选5张</p>
-                        </div>
-                    </div>
-                    <div class="statusBar" style="display:none;">
-                        <div class="progress">
-                            <span class="text">0%</span>
-                            <span class="percentage"></span>
-                        </div><div class="info"></div>
-                        <div class="btns">
-                            <div id="filePicker2"></div><div class="uploadBtn">开始上传</div>
-                        </div>
-                    </div>
-                </div>
 
+                <input id="file-Portrait" type="file" class="file" multiple>
             </div>
 
             <div class="formControls col-xs-3 col-sm-2">
-                <ul>
-                    <?php if(is_array($info['img'])): $i = 0; $__LIST__ = $info['img'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$img): $mod = ($i % 2 );++$i;?><li style="padding-bottom: 5px;">
-                        <img src="http://<?php echo C('UPLOAD_TYPE_CONFIG.domain').$img;?>?imageView2/0/w/80/h/30"/>
-                        <input type="hidden" name="img[]" value="<?php echo ($img); ?>"/>
-                    </li><?php endforeach; endif; else: echo "" ;endif; ?>
-                </ul>
             </div>
         </div>
 
@@ -144,16 +121,73 @@
 <!-- 配置文件 -->
 <script type="text/javascript" src="/flower/Public/Admin/lib/ueditor/1.4.3/ueditor.config.js"></script>
 <script type="text/javascript" src="/flower/Public/Admin/lib/ueditor/1.4.3/ueditor.all.js"></script>
+
 <!--上传图片-->
-<link rel="stylesheet" type="text/css" href="/flower/Public/Admin/lib/webuploader/0.1.5/webuploader.css">
-<link rel="stylesheet" type="text/css" href="/flower/Public/Admin/lib/webuploader/0.1.5/demo.css">
-<script type="text/javascript" src="/flower/Public/Admin/lib/webuploader/0.1.5/webuploader.min.js"></script>
-<script type="text/javascript" src="/flower/Public/Admin/lib/webuploader/0.1.5/demo.js"></script>
+<script type="text/javascript" src="/flower/Public/Admin/lib/bootstrap-fileinput-master/js/fileinput.min.js"></script>
+<script type="text/javascript" src="/flower/Public/Admin/lib/bootstrap-fileinput-master/js/fileinput_locale_zh.js"></script>
+<link rel='stylesheet' type="text/css" href="/flower/Public/Admin/lib/bootstrap-fileinput-master/css/fileinput.min.css"/>
+<link href="/flower/Public/Admin/lib/bootstrap-fileinput-master/css/bootstrap.min.css" rel="stylesheet">
+
+
 <script>
-    // 添加全局站点信息
-    var upload_server="<?php echo U('Common/uploadImg');?>";
-    //控制上传文件数量
-    var fileNumLimit="<?php echo 5-($info?count($info['img']):0);?>";
+
+
+    var img="<?php echo $info['img']?$info['img']:'';?>";
+    var url="<?php echo 'http://'.C('UPLOAD_TYPE_CONFIG.domain');?>";
+    img=img.split(",");
+
+    //是否存在图片
+    if(img){
+        var image=[];
+//        img?"<img src='"+img+"' class='file-preview-image'><input type='hidden' name='img[]' value='"+img+"'/>":'';
+        for(var i=0;i<img.length;i++){
+            if(img[i]){
+                image.push("" +
+                        "<img src='"+url+img[i]+"' class='file-preview-image'>" +
+                        "<input type='hidden' name='img[]' value='"+img[i]+"'/>" +
+                        '<div class="file-actions">' +
+                        '<div class="file-footer-buttons">' +
+                        '<button type="button" class="kv-file-remove btn btn-xs btn-default shut-remove" title="Remove file"><i class="glyphicon glyphicon-trash text-danger"></i></button>' +
+                        '</div>' +
+                        '</div>'+
+                        "");
+//                str+="<img src='"+url+img[i]+"' class='file-preview-image'><input type='hidden' name='img[]' value='"+img[i]+"'/>"+",";
+            }
+        }
+    }
+
+    //初始化fileinput控件（第一次初始化）
+    $('#file-Portrait').fileinput({
+        language: 'zh', //设置语言
+        uploadUrl: "<?php echo U('Common/uploadImg');?>", //上传的地址
+        allowedFileExtensions : ['jpg', 'png','gif','jpeg'],//接收的文件后缀,
+        maxFilesNum: 2,
+        autoReplace: true,
+        enctype: 'multipart/form-data',
+        showUpload: true, //是否显示上传按钮
+        showCaption: false,//是否显示标题
+        browseClass: "btn btn-primary", //按钮样式
+        previewFileIcon: "<i class='glyphicon glyphicon-king'></i>",
+        msgFilesTooMany: "选择上传的文件数量({n}) 超过允许的最大数值{m}！",
+        // for image files
+        initialPreview: image,
+
+    });
+
+    $('#file-Portrait').on('fileuploaded', function(event, data, previewId, index) {
+        var form = data.form, files = data.files, extra = data.extra,
+                response = data.response, reader = data.reader;
+        //插入要长传的数据
+        if(!response.code){
+            //上传成功
+            $("#"+previewId).append("<input type='hidden' name='img[]' value='"+response.msg+"'/>");
+        }else{
+            //上传失败
+            layer.msg(response.msg);
+        }
+    });
+
+
     $(function () {
         var ue = UE.getEditor('container', {
             serverUrl:"<?php echo U('Ueditor/manager');?>",
@@ -186,5 +220,8 @@
             });
         });
 
+        $('.shut-remove').click(function(){
+            $(this).parents(".file-preview-frame").remove();
+        });
     });
 </script>

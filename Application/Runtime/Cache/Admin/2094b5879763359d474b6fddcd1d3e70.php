@@ -99,7 +99,7 @@ $('#file-Portrait').fileinput({
     maxFileCount: 1,
     autoReplace: true,
     enctype: 'multipart/form-data',
-    showUpload: true, //是否显示上传按钮
+    showUpload: false, //是否显示上传按钮
     showCaption: false,//是否显示标题
     browseClass: "btn btn-primary", //按钮样式
     previewFileIcon: "<i class='glyphicon glyphicon-king'></i>",

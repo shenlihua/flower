@@ -99,7 +99,7 @@ class GoodsController extends CommonController
         if($id){
             $info=M('goods')->find($id);
             $info['params']=explode(",",$info['params']);
-            $info['img']=explode(",",$info['img']);
+//            $info['img']=explode(",",$info['img']);
 //            dump($info);
             //获取分类
             $cate_info=$this->getCate(array('id'=>$info['cate_id']),'find');
